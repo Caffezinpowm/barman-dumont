@@ -1,0 +1,1832 @@
+{
+  "titulo": "Guia do Barman",
+  "blocos": [
+    {
+      "tipo": "titulo",
+      "texto": "Barman",
+      "textoOriginal": "Bartender",
+      "traducao": "pt"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O barman tem um trabalho bem simples: servir bebidas. As pessoas chegam até você e pedem drinks; seu trabalho é só entregar.",
+      "textoOriginal": "The bartender has a pretty simple job: serve drinks. People will come up to you and request drinks, and your job is just to hand it to them.",
+      "traducao": "pt"
+    },
+    {
+      "tipo": "link",
+      "texto": "Veja aqui a lista completa de bebidas.",
+      "textoOriginal": "Click here to see a complete list of drinks.",
+      "traducao": "pt",
+      "href": "#/menu"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Os materiais para essas bebidas podem ser encontrados em vários lugares:",
+      "textoOriginal": "The materials for these drinks can be found in various places:",
+      "traducao": "pt"
+    },
+    {
+      "tipo": "entidades",
+      "entidades": [
+        {
+          "id": "BoozeDispenser",
+          "legenda": null
+        },
+        {
+          "id": "SodaDispenser",
+          "legenda": null
+        },
+        {
+          "id": "VendingMachineBooze",
+          "legenda": null
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Não se esqueça dos recipientes para servir!",
+      "textoOriginal": "Don't forget containers to serve them in!",
+      "traducao": "pt"
+    },
+    {
+      "tipo": "entidades",
+      "entidades": [
+        {
+          "id": "DrinkGlass",
+          "legenda": "Glass"
+        },
+        {
+          "id": "DrinkGlassCoupeShaped",
+          "legenda": null
+        },
+        {
+          "id": "DrinkShaker",
+          "legenda": null
+        },
+        {
+          "id": "DrinkJigger",
+          "legenda": null
+        }
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A lista de todas as bebidas que podem ser pedidas está no menu de bebidas.",
+      "textoOriginal": "You can find a list of every drink that can be requested under the Reference Tables entry.",
+      "traducao": "pt"
+    }
+  ],
+  "equipamentos": [
+    {
+      "id": "BoozeDispenser",
+      "nome": "máquina de bebidas alcoólicas",
+      "descricao": "Uma máquina de refrigerante para adultos. Aguenta só um copo por vez.",
+      "traducao": "pt",
+      "nomeTraducao": "pt",
+      "descricaoTraducao": "pt",
+      "tipo": "dispensa",
+      "capacidade": null,
+      "capacidadeFonte": null,
+      "cabeNaDispensa": false,
+      "sprite": {
+        "rsi": "Structures/smalldispensers.rsi",
+        "estado": "booze",
+        "largura": 48,
+        "altura": 48,
+        "direcoes": 4,
+        "colunas": 2,
+        "linhas": 2
+      },
+      "origem": {
+        "id": "BoozeDispenser",
+        "file": "Resources/Prototypes/Entities/Structures/Dispensers/booze.yml",
+        "line": 130
+      }
+    },
+    {
+      "id": "SodaDispenser",
+      "nome": "soda dispenser",
+      "descricao": "A beverage dispenser with a selection of soda and several other common beverages. Has a single fill slot for containers.",
+      "traducao": "en",
+      "nomeTraducao": "en",
+      "descricaoTraducao": "en",
+      "tipo": "dispensa",
+      "capacidade": null,
+      "capacidadeFonte": null,
+      "cabeNaDispensa": false,
+      "sprite": {
+        "rsi": "Structures/smalldispensers.rsi",
+        "estado": "soda",
+        "largura": 48,
+        "altura": 48,
+        "direcoes": 4,
+        "colunas": 2,
+        "linhas": 2
+      },
+      "origem": {
+        "id": "SodaDispenser",
+        "file": "Resources/Prototypes/Entities/Structures/Dispensers/soda.yml",
+        "line": 129
+      }
+    },
+    {
+      "id": "VendingMachineBooze",
+      "nome": "Breja-O-Mat",
+      "descricao": "Vende tudo que você precisa para suprir o vício da tripulação.",
+      "traducao": "pt",
+      "nomeTraducao": "pt",
+      "descricaoTraducao": "pt",
+      "tipo": "vending",
+      "capacidade": null,
+      "capacidadeFonte": null,
+      "cabeNaDispensa": false,
+      "sprite": {
+        "rsi": "Structures/Machines/VendingMachines/boozeomat.rsi",
+        "estado": "off",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "origem": {
+        "id": "VendingMachineBooze",
+        "file": "Resources/Prototypes/Entities/Structures/Machines/vending_machines.yml",
+        "line": 426
+      }
+    },
+    {
+      "id": "DrinkGlass",
+      "nome": "copo de vidro",
+      "descricao": "Um copo.",
+      "traducao": "pt",
+      "nomeTraducao": "pt",
+      "descricaoTraducao": "pt",
+      "tipo": "vidraria",
+      "capacidade": 30,
+      "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+      "cabeNaDispensa": true,
+      "sprite": {
+        "rsi": "Objects/Consumable/Drinks/glass_clear.rsi",
+        "estado": "icon",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "origem": {
+        "id": "DrinkGlass",
+        "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks.yml",
+        "line": 273
+      }
+    },
+    {
+      "id": "DrinkGlassCoupeShaped",
+      "nome": "coupe glass",
+      "descricao": "A classic thin neck coupe glass, the icon of fragile labels on crates around the galaxy.",
+      "traducao": "en",
+      "nomeTraducao": "en",
+      "descricaoTraducao": "en",
+      "tipo": "vidraria",
+      "capacidade": 30,
+      "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+      "cabeNaDispensa": true,
+      "sprite": {
+        "rsi": "Objects/Consumable/Drinks/glass_coupe_shape.rsi",
+        "estado": "icon",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "origem": {
+        "id": "DrinkGlassCoupeShaped",
+        "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks.yml",
+        "line": 307
+      }
+    },
+    {
+      "id": "DrinkShaker",
+      "nome": "shaker",
+      "descricao": "O fiel companheiro de mixagem do barman.",
+      "traducao": "pt",
+      "nomeTraducao": "pt",
+      "descricaoTraducao": "pt",
+      "tipo": "ferramenta",
+      "capacidade": 100,
+      "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+      "cabeNaDispensa": true,
+      "sprite": {
+        "rsi": "Objects/Consumable/Drinks/shaker.rsi",
+        "estado": "icon",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "origem": {
+        "id": "DrinkShaker",
+        "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_special.yml",
+        "line": 87
+      }
+    },
+    {
+      "id": "DrinkJigger",
+      "nome": "jigger",
+      "descricao": "Like a shaker, but smaller. Used to control the amount of ingredients.",
+      "traducao": "en",
+      "nomeTraducao": "en",
+      "descricaoTraducao": "en",
+      "tipo": "ferramenta",
+      "capacidade": 20,
+      "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+      "cabeNaDispensa": true,
+      "sprite": {
+        "rsi": "Objects/Consumable/Drinks/jigger.rsi",
+        "estado": "icon",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "origem": {
+        "id": "DrinkJigger",
+        "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_special.yml",
+        "line": 225
+      }
+    }
+  ],
+  "extras": [
+    {
+      "id": "DrinkShotGlass",
+      "nome": "shot",
+      "descricao": "Perfeito para bater na mesa com raiva.",
+      "traducao": "pt",
+      "nomeTraducao": "pt",
+      "descricaoTraducao": "pt",
+      "tipo": "vidraria",
+      "capacidade": 5,
+      "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+      "cabeNaDispensa": true,
+      "sprite": {
+        "rsi": "Objects/Consumable/Drinks/shotglass.rsi",
+        "estado": "icon",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "origem": {
+        "id": "DrinkShotGlass",
+        "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_special.yml",
+        "line": 135
+      }
+    },
+    {
+      "id": "Pitcher",
+      "nome": "metal pitcher",
+      "descricao": "A stainless steel insulated pitcher. Everyone's best friend in the morning.",
+      "traducao": "en",
+      "nomeTraducao": "en",
+      "descricaoTraducao": "en",
+      "tipo": "vidraria",
+      "capacidade": 60,
+      "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+      "cabeNaDispensa": true,
+      "sprite": {
+        "rsi": "Objects/Consumable/Drinks/pitcher.rsi",
+        "estado": "icon",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "origem": {
+        "id": "Pitcher",
+        "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_special.yml",
+        "line": 269
+      }
+    },
+    {
+      "id": "DrinkShakerBluespace",
+      "nome": "bluespace shaker",
+      "descricao": "Mass-Mixing made easy!",
+      "traducao": "en",
+      "nomeTraducao": "en",
+      "descricaoTraducao": "en",
+      "tipo": "ferramenta",
+      "capacidade": 1000,
+      "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+      "cabeNaDispensa": true,
+      "sprite": {
+        "rsi": "_Goobstation/Objects/Consumable/Drinks/shaker_bluespace.rsi",
+        "estado": "icon",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "origem": {
+        "id": "DrinkShakerBluespace",
+        "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_special.yml",
+        "line": 299
+      }
+    },
+    {
+      "id": "BarSpoon",
+      "nome": "bar spoon",
+      "descricao": "Your personal helper to mix drinks and changes lives.",
+      "traducao": "en",
+      "nomeTraducao": "en",
+      "descricaoTraducao": "en",
+      "tipo": "ferramenta",
+      "capacidade": null,
+      "capacidadeFonte": null,
+      "cabeNaDispensa": false,
+      "sprite": {
+        "rsi": "Objects/Misc/utensils.rsi",
+        "estado": "bar_spoon",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "origem": {
+        "id": "BarSpoon",
+        "file": "Resources/Prototypes/Entities/Objects/Misc/utensils.yml",
+        "line": 184
+      }
+    },
+    {
+      "id": "DrinkIceBucket",
+      "nome": "ice bucket",
+      "descricao": "A special bucket of refreshy ice. Prohibited use for challenge with the same name!",
+      "traducao": "en",
+      "nomeTraducao": "en",
+      "descricaoTraducao": "en",
+      "tipo": "ferramenta",
+      "capacidade": 200,
+      "capacidadeFonte": "soma dos reagentes iniciais",
+      "cabeNaDispensa": false,
+      "sprite": {
+        "rsi": "Objects/Consumable/Drinks/icebucket.rsi",
+        "estado": "icon",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "origem": {
+        "id": "DrinkIceBucket",
+        "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_special.yml",
+        "line": 250
+      }
+    }
+  ],
+  "dispensas": [
+    {
+      "id": "BoozeDispenser",
+      "nome": "máquina de bebidas alcoólicas",
+      "descricao": "Uma máquina de refrigerante para adultos. Aguenta só um copo por vez.",
+      "traducao": "pt",
+      "nomeTraducao": "pt",
+      "descricaoTraducao": "pt",
+      "tipo": "dispensa",
+      "capacidade": null,
+      "capacidadeFonte": null,
+      "cabeNaDispensa": false,
+      "sprite": {
+        "rsi": "Structures/smalldispensers.rsi",
+        "estado": "booze",
+        "largura": 48,
+        "altura": 48,
+        "direcoes": 4,
+        "colunas": 2,
+        "linhas": 2
+      },
+      "origem": {
+        "id": "BoozeDispenser",
+        "file": "Resources/Prototypes/Entities/Structures/Dispensers/booze.yml",
+        "line": 130
+      },
+      "conteudo": [
+        {
+          "reagenteId": "Ale",
+          "nome": "ale",
+          "quantidade": 150,
+          "garrafaId": "DrinkAleBottleFullGrowler",
+          "garrafaNome": "Magm-Ale growler",
+          "bebidaId": "Ale"
+        },
+        {
+          "reagenteId": "Beer",
+          "nome": "cerveja",
+          "quantidade": 150,
+          "garrafaId": "DrinkBeerGrowler",
+          "garrafaNome": "beer growler",
+          "bebidaId": "Beer"
+        },
+        {
+          "reagenteId": "CoffeeLiqueur",
+          "nome": "licor de café",
+          "quantidade": 100,
+          "garrafaId": "DrinkCoffeeLiqueurBottleFull",
+          "garrafaNome": "coffee liqueur bottle",
+          "bebidaId": "CoffeeLiqueur"
+        },
+        {
+          "reagenteId": "Cognac",
+          "nome": "conhaque",
+          "quantidade": 100,
+          "garrafaId": "DrinkCognacBottleFull",
+          "garrafaNome": "garrafa de conhaque",
+          "bebidaId": "Cognac"
+        },
+        {
+          "reagenteId": "Gin",
+          "nome": "gin",
+          "quantidade": 100,
+          "garrafaId": "DrinkGinBottleFull",
+          "garrafaNome": "gin griffeter",
+          "bebidaId": "Gin"
+        },
+        {
+          "reagenteId": "Mead",
+          "nome": "mead",
+          "quantidade": 150,
+          "garrafaId": "DrinkMeadJug",
+          "garrafaNome": "mead jug",
+          "bebidaId": "Mead"
+        },
+        {
+          "reagenteId": "Rum",
+          "nome": "rum",
+          "quantidade": 100,
+          "garrafaId": "DrinkRumBottleFull",
+          "garrafaNome": "rum cubano temperado do capitão pete",
+          "bebidaId": "Rum"
+        },
+        {
+          "reagenteId": "Tequila",
+          "nome": "tequila",
+          "quantidade": 100,
+          "garrafaId": "DrinkTequilaBottleFull",
+          "garrafaNome": "garrafa de tequila de qualidade garantida caccavo",
+          "bebidaId": "Tequila"
+        },
+        {
+          "reagenteId": "Vermouth",
+          "nome": "vermute",
+          "quantidade": 100,
+          "garrafaId": "DrinkVermouthBottleFull",
+          "garrafaNome": "garrafa de vermute goldeneye",
+          "bebidaId": "Vermouth"
+        },
+        {
+          "reagenteId": "Vodka",
+          "nome": "vodka",
+          "quantidade": 100,
+          "garrafaId": "DrinkVodkaBottleFull",
+          "garrafaNome": "garrafa de vodka",
+          "bebidaId": "Vodka"
+        },
+        {
+          "reagenteId": "Whiskey",
+          "nome": "whisky",
+          "quantidade": 100,
+          "garrafaId": "DrinkWhiskeyBottleFull",
+          "garrafaNome": "reserva especial do tio git",
+          "bebidaId": "Whiskey"
+        },
+        {
+          "reagenteId": "Wine",
+          "nome": "vinho",
+          "quantidade": 100,
+          "garrafaId": "DrinkWineBottleFull",
+          "garrafaNome": "garrafa de vinho especial com barba dupla",
+          "bebidaId": "Wine"
+        }
+      ]
+    },
+    {
+      "id": "SodaDispenser",
+      "nome": "soda dispenser",
+      "descricao": "A beverage dispenser with a selection of soda and several other common beverages. Has a single fill slot for containers.",
+      "traducao": "en",
+      "nomeTraducao": "en",
+      "descricaoTraducao": "en",
+      "tipo": "dispensa",
+      "capacidade": null,
+      "capacidadeFonte": null,
+      "cabeNaDispensa": false,
+      "sprite": {
+        "rsi": "Structures/smalldispensers.rsi",
+        "estado": "soda",
+        "largura": 48,
+        "altura": 48,
+        "direcoes": 4,
+        "colunas": 2,
+        "linhas": 2
+      },
+      "origem": {
+        "id": "SodaDispenser",
+        "file": "Resources/Prototypes/Entities/Structures/Dispensers/soda.yml",
+        "line": 129
+      },
+      "conteudo": [
+        {
+          "reagenteId": "CoconutWater",
+          "nome": "coconut water",
+          "quantidade": 300,
+          "garrafaId": "DrinkCoconutWaterJug",
+          "garrafaNome": "coconut water jug",
+          "bebidaId": "CoconutWater"
+        },
+        {
+          "reagenteId": "Coffee",
+          "nome": "café",
+          "quantidade": 300,
+          "garrafaId": "DrinkCoffeeJug",
+          "garrafaNome": "coffee jug",
+          "bebidaId": "Coffee"
+        },
+        {
+          "reagenteId": "Cola",
+          "nome": "refri de cola",
+          "quantidade": 100,
+          "garrafaId": "DrinkColaBottleFull",
+          "garrafaNome": "garrafa de espaço-cola",
+          "bebidaId": "Cola"
+        },
+        {
+          "reagenteId": "Cream",
+          "nome": "creme",
+          "quantidade": 150,
+          "garrafaId": "DrinkCreamCartonXL",
+          "garrafaNome": "creme de leite xl",
+          "bebidaId": null
+        },
+        {
+          "reagenteId": "DrGibb",
+          "nome": "Dr. Gibb",
+          "quantidade": 300,
+          "garrafaId": "DrinkDrGibbJug",
+          "garrafaNome": "Dr. Gibb jug",
+          "bebidaId": "DrGibb"
+        },
+        {
+          "reagenteId": "EnergyDrink",
+          "nome": "energético",
+          "quantidade": 100,
+          "garrafaId": "DrinkEnergyDrinkJug",
+          "garrafaNome": "Red Bool jug",
+          "bebidaId": "EnergyDrink"
+        },
+        {
+          "reagenteId": "GreenTea",
+          "nome": "chá verde",
+          "quantidade": 300,
+          "garrafaId": "DrinkGreenTeaJug",
+          "garrafaNome": "green tea jug",
+          "bebidaId": "GreenTea"
+        },
+        {
+          "reagenteId": "Ice",
+          "nome": "gelo",
+          "quantidade": 300,
+          "garrafaId": "DrinkIceJug",
+          "garrafaNome": "ice jug",
+          "bebidaId": null
+        },
+        {
+          "reagenteId": "JuiceLime",
+          "nome": "suco de limão",
+          "quantidade": 150,
+          "garrafaId": "DrinkJuiceLimeCartonXL",
+          "garrafaNome": "lime juice XL",
+          "bebidaId": "JuiceLime"
+        },
+        {
+          "reagenteId": "JuiceOrange",
+          "nome": "suco de laranja",
+          "quantidade": 150,
+          "garrafaId": "DrinkJuiceOrangeCartonXL",
+          "garrafaNome": "orange juice XL",
+          "bebidaId": "JuiceOrange"
+        },
+        {
+          "reagenteId": "LemonLime",
+          "nome": "refri lima-limão",
+          "quantidade": 300,
+          "garrafaId": "DrinkLemonLimeJug",
+          "garrafaNome": "Smite jug",
+          "bebidaId": "LemonLime"
+        },
+        {
+          "reagenteId": "RootBeer",
+          "nome": "root beer",
+          "quantidade": 300,
+          "garrafaId": "DrinkRootBeerJug",
+          "garrafaNome": "root beer jug",
+          "bebidaId": "RootBeer"
+        },
+        {
+          "reagenteId": "SodaWater",
+          "nome": "água com gás",
+          "quantidade": 100,
+          "garrafaId": "DrinkSodaWaterBottleFull",
+          "garrafaNome": "água com gás",
+          "bebidaId": "SodaWater"
+        },
+        {
+          "reagenteId": "SpaceMountainWind",
+          "nome": "Space Mountain Wind",
+          "quantidade": 100,
+          "garrafaId": "DrinkSpaceMountainWindBottleFull",
+          "garrafaNome": "garrafa de vento da montanha espacial",
+          "bebidaId": "SpaceMountainWind"
+        },
+        {
+          "reagenteId": "SpaceUp",
+          "nome": "Space-Up",
+          "quantidade": 100,
+          "garrafaId": "DrinkSpaceUpBottleFull",
+          "garrafaNome": "garrafa de spaceup",
+          "bebidaId": "SpaceUp"
+        },
+        {
+          "reagenteId": "Sugar",
+          "nome": "açúcar",
+          "quantidade": 300,
+          "garrafaId": "DrinkSugarJug",
+          "garrafaNome": "açúcar",
+          "bebidaId": null
+        },
+        {
+          "reagenteId": "Tea",
+          "nome": "chá",
+          "quantidade": 300,
+          "garrafaId": "DrinkTeaJug",
+          "garrafaNome": "tea jug",
+          "bebidaId": "Tea"
+        },
+        {
+          "reagenteId": "TonicWater",
+          "nome": "água tônica",
+          "quantidade": 100,
+          "garrafaId": "DrinkTonicWaterBottleFull",
+          "garrafaNome": "tonic water bottle",
+          "bebidaId": "TonicWater"
+        },
+        {
+          "reagenteId": "JuiceWatermelon",
+          "nome": "suco de melancia",
+          "quantidade": 300,
+          "garrafaId": "DrinkWaterMelonJuiceJug",
+          "garrafaNome": "watermelon juice jug",
+          "bebidaId": "JuiceWatermelon"
+        }
+      ]
+    }
+  ],
+  "vending": {
+    "id": "VendingMachineBooze",
+    "nome": "Breja-O-Mat",
+    "descricao": "Vende tudo que você precisa para suprir o vício da tripulação.",
+    "traducao": "pt",
+    "sprite": {
+      "rsi": "Structures/Machines/VendingMachines/boozeomat.rsi",
+      "estado": "off",
+      "largura": 32,
+      "altura": 32,
+      "direcoes": 1,
+      "colunas": 1,
+      "linhas": 1
+    },
+    "inventario": [
+      {
+        "id": "DrinkAbsintheBottleFull",
+        "nome": "absinto jailbreaker verte",
+        "quantidade": 2,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/absinthebottle.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkFlaskBar",
+        "nome": "bar flask",
+        "quantidade": 5,
+        "tipo": "garrafa",
+        "traducao": "en",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/barflask.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "BarSpoon",
+        "nome": "bar spoon",
+        "quantidade": 3,
+        "tipo": "ferramenta",
+        "traducao": "en",
+        "sprite": {
+          "rsi": "Objects/Misc/utensils.rsi",
+          "estado": "bar_spoon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkBeerBottleFull",
+        "nome": "beer bottle",
+        "quantidade": 5,
+        "tipo": "garrafa",
+        "traducao": "en",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/beer.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkBeerCan",
+        "nome": "beer can",
+        "quantidade": 5,
+        "tipo": "garrafa",
+        "traducao": "en",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/beer_can.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "CustomDrinkJug",
+        "nome": "beverage jug",
+        "quantidade": 2,
+        "tipo": "garrafa",
+        "traducao": "en",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/generic_jug.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkCoconutWaterCarton",
+        "nome": "coconut water",
+        "quantidade": 3,
+        "tipo": "garrafa",
+        "traducao": "en",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/coconutwater.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkCoffeeLiqueurBottleFull",
+        "nome": "coffee liqueur bottle",
+        "quantidade": 3,
+        "tipo": "garrafa",
+        "traducao": "en",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/coffeeliqueurbottle.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkGlass",
+        "nome": "copo de vidro",
+        "quantidade": 20,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/glass_clear.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkGlassCoupeShaped",
+        "nome": "coupe glass",
+        "quantidade": 10,
+        "tipo": "garrafa",
+        "traducao": "en",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/glass_coupe_shape.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkCreamCarton",
+        "nome": "creme de leite",
+        "quantidade": 5,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/cream.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkDisposableCup",
+        "nome": "disposable cup",
+        "quantidade": 5,
+        "tipo": "garrafa",
+        "traducao": "id",
+        "sprite": {
+          "rsi": "_Impstation/Objects/Consumable/Drinks/coffeecup.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkChampagneBottleFull",
+        "nome": "garrafa de champagne",
+        "quantidade": 2,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/champagnebottle.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkCognacBottleFull",
+        "nome": "garrafa de conhaque",
+        "quantidade": 4,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/cognacbottle.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkColaBottleFull",
+        "nome": "garrafa de espaço-cola",
+        "quantidade": 4,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/colabottle.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkGrenadineBottleFull",
+        "nome": "garrafa de granadina rosa briar",
+        "quantidade": 2,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/grenadinebottle.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkPatronBottleFull",
+        "nome": "garrafa de patron",
+        "quantidade": 2,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/patronbottle.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkSpaceUpBottleFull",
+        "nome": "garrafa de spaceup",
+        "quantidade": 3,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/space-up_bottle.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkTequilaBottleFull",
+        "nome": "garrafa de tequila de qualidade garantida caccavo",
+        "quantidade": 3,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/tequillabottle.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkSpaceMountainWindBottleFull",
+        "nome": "garrafa de vento da montanha espacial",
+        "quantidade": 3,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/space_mountain_wind_bottle.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkVermouthBottleFull",
+        "nome": "garrafa de vermute goldeneye",
+        "quantidade": 5,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/vermouthbottle.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkWineBottleFull",
+        "nome": "garrafa de vinho especial com barba dupla",
+        "quantidade": 5,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/winebottle.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkVodkaBottleFull",
+        "nome": "garrafa de vodka",
+        "quantidade": 5,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/vodkabottle.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkVacuumFlask",
+        "nome": "garrafa térmica",
+        "quantidade": 5,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/vacuumflask.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkGildlagerBottleFull",
+        "nome": "Gildlager bottle",
+        "quantidade": 2,
+        "tipo": "garrafa",
+        "traducao": "en",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/gildlagerbottle.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkGinBottleFull",
+        "nome": "gin griffeter",
+        "quantidade": 3,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/ginbottle.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkIceBucket",
+        "nome": "ice bucket",
+        "quantidade": 2,
+        "tipo": "garrafa",
+        "traducao": "en",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/icebucket.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkJigger",
+        "nome": "jigger",
+        "quantidade": 5,
+        "tipo": "garrafa",
+        "traducao": "en",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/jigger.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkSodaWaterCan",
+        "nome": "lata de água com gás",
+        "quantidade": 8,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/sodawater.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkTonicWaterCan",
+        "nome": "lata de água tônica",
+        "quantidade": 8,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/tonic.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkEnergyDrinkCan",
+        "nome": "lata de bool-vermelha energética",
+        "quantidade": 8,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/energy_drink.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkMilkCarton",
+        "nome": "leite",
+        "quantidade": 2,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/milk.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkMelonLiquorBottleFull",
+        "nome": "licor de esmeraldina melão",
+        "quantidade": 3,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/alco-bottle.rsi",
+          "estado": "icon_green",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkAleBottleFull",
+        "nome": "magm-ale",
+        "quantidade": 5,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/alebottle.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkBlueCuracaoBottleFull",
+        "nome": "miss blue curaçao",
+        "quantidade": 2,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/alco-bottle.rsi",
+          "estado": "icon_blue",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkJuicePineappleCarton",
+        "nome": "pineapple juice",
+        "quantidade": 3,
+        "tipo": "garrafa",
+        "traducao": "en",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/pineapplejuice.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkWhiskeyBottleFull",
+        "nome": "reserva especial do tio git",
+        "quantidade": 5,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/whiskeybottle.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkRumBottleFull",
+        "nome": "rum cubano temperado do capitão pete",
+        "quantidade": 4,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/rumbottle.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkShaker",
+        "nome": "shaker",
+        "quantidade": 5,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/shaker.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkShotGlass",
+        "nome": "shot",
+        "quantidade": 10,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/shotglass.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkSakeBottleFull",
+        "nome": "small sake bottle",
+        "quantidade": 3,
+        "tipo": "garrafa",
+        "traducao": "en",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/sakebottle.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkSolDryCan",
+        "nome": "Sol Dry can",
+        "quantidade": 8,
+        "tipo": "garrafa",
+        "traducao": "en",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/sol_dry.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkJuiceOrangeCarton",
+        "nome": "suco de laranja",
+        "quantidade": 3,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/orangejuice.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkJuiceLemonCarton",
+        "nome": "suco de limão siciliano",
+        "quantidade": 3,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/lemonjuice.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkJuiceLimeCarton",
+        "nome": "suco de limão-lima",
+        "quantidade": 3,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/limejuice.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkJuiceTomatoCarton",
+        "nome": "suco de tomate",
+        "quantidade": 3,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/tomatojuice.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkWineCan",
+        "nome": "wine can",
+        "quantidade": 5,
+        "tipo": "garrafa",
+        "traducao": "en",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/wine_can.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      }
+    ],
+    "contrabando": [
+      {
+        "id": "ChemistryBottleEthanol",
+        "nome": "bottle",
+        "quantidade": 3,
+        "tipo": "garrafa",
+        "traducao": "en",
+        "sprite": {
+          "rsi": "Objects/Specific/Chemistry/bottle.rsi",
+          "estado": "bottle-1",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      },
+      {
+        "id": "DrinkBottleOfNothingFull",
+        "nome": "garrafa de nada",
+        "quantidade": 1,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/bottleofnothing.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      }
+    ],
+    "emagged": [
+      {
+        "id": "DrinkPoisonWinebottleFull",
+        "nome": "garrafa de veludo do bruxo",
+        "quantidade": 2,
+        "tipo": "garrafa",
+        "traducao": "pt",
+        "sprite": {
+          "rsi": "Objects/Consumable/Drinks/pwinebottle.rsi",
+          "estado": "icon",
+          "largura": 32,
+          "altura": 32,
+          "direcoes": 1,
+          "colunas": 1,
+          "linhas": 1
+        }
+      }
+    ]
+  },
+  "metodos": [
+    {
+      "id": "Shake",
+      "verbo": "Agitar",
+      "verboTraducao": "pt",
+      "entidadeId": "DrinkShaker",
+      "entidadeNome": "shaker",
+      "entidadeSprite": {
+        "rsi": "Objects/Consumable/Drinks/shaker.rsi",
+        "estado": "icon",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "descricao": "Coloque os ingredientes no shaker e agite. Necessário para receitas com a categoria Shake."
+    },
+    {
+      "id": "Stir",
+      "verbo": "Mexer",
+      "verboTraducao": "pt",
+      "entidadeId": "BarSpoon",
+      "entidadeNome": "bar spoon",
+      "entidadeSprite": {
+        "rsi": "Objects/Misc/utensils.rsi",
+        "estado": "bar_spoon",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "descricao": "Misture com a colher de bar. Necessário para receitas com a categoria Stir."
+    },
+    {
+      "id": "Centrifuge",
+      "verbo": "Centrifugar",
+      "verboTraducao": "pt",
+      "entidadeId": "MachineCentrifuge",
+      "entidadeNome": "centrífuga de mesa",
+      "entidadeSprite": {
+        "rsi": "Structures/Machines/Medical/centrifuge.rsi",
+        "estado": "base",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "descricao": "Separação por centrífuga, usada em reações químicas específicas."
+    },
+    {
+      "id": "Electrolysis",
+      "verbo": "Eletrolisar",
+      "verboTraducao": "pt",
+      "entidadeId": "MachineElectrolysisUnit",
+      "entidadeNome": "unidade de eletrólise",
+      "entidadeSprite": {
+        "rsi": "Structures/Machines/Medical/electrolysis.rsi",
+        "estado": "base",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "descricao": "Eletrólise, usada em reações químicas específicas."
+    },
+    {
+      "id": "Holy",
+      "verbo": "Abençoar",
+      "verboTraducao": "pt",
+      "entidadeId": "Bible",
+      "entidadeNome": "bíblia",
+      "entidadeSprite": {
+        "rsi": "Objects/Specific/Chapel/bible.rsi",
+        "estado": "icon",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "descricao": "Método especial de capela; aparece em reações fora do balcão."
+    }
+  ],
+  "vidraria": [
+    {
+      "id": "DrinkShakerBluespace",
+      "nome": "bluespace shaker",
+      "descricao": "Mass-Mixing made easy!",
+      "traducao": "en",
+      "nomeTraducao": "en",
+      "descricaoTraducao": "en",
+      "tipo": "ferramenta",
+      "capacidade": 1000,
+      "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+      "cabeNaDispensa": true,
+      "sprite": {
+        "rsi": "_Goobstation/Objects/Consumable/Drinks/shaker_bluespace.rsi",
+        "estado": "icon",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "origem": {
+        "id": "DrinkShakerBluespace",
+        "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_special.yml",
+        "line": 299
+      },
+      "uso": "misturar"
+    },
+    {
+      "id": "DrinkIceBucket",
+      "nome": "ice bucket",
+      "descricao": "A special bucket of refreshy ice. Prohibited use for challenge with the same name!",
+      "traducao": "en",
+      "nomeTraducao": "en",
+      "descricaoTraducao": "en",
+      "tipo": "ferramenta",
+      "capacidade": 200,
+      "capacidadeFonte": "soma dos reagentes iniciais",
+      "cabeNaDispensa": false,
+      "sprite": {
+        "rsi": "Objects/Consumable/Drinks/icebucket.rsi",
+        "estado": "icon",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "origem": {
+        "id": "DrinkIceBucket",
+        "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_special.yml",
+        "line": 250
+      },
+      "uso": "ferramenta"
+    },
+    {
+      "id": "DrinkShaker",
+      "nome": "shaker",
+      "descricao": "O fiel companheiro de mixagem do barman.",
+      "traducao": "pt",
+      "nomeTraducao": "pt",
+      "descricaoTraducao": "pt",
+      "tipo": "ferramenta",
+      "capacidade": 100,
+      "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+      "cabeNaDispensa": true,
+      "sprite": {
+        "rsi": "Objects/Consumable/Drinks/shaker.rsi",
+        "estado": "icon",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "origem": {
+        "id": "DrinkShaker",
+        "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_special.yml",
+        "line": 87
+      },
+      "uso": "misturar"
+    },
+    {
+      "id": "Pitcher",
+      "nome": "metal pitcher",
+      "descricao": "A stainless steel insulated pitcher. Everyone's best friend in the morning.",
+      "traducao": "en",
+      "nomeTraducao": "en",
+      "descricaoTraducao": "en",
+      "tipo": "vidraria",
+      "capacidade": 60,
+      "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+      "cabeNaDispensa": true,
+      "sprite": {
+        "rsi": "Objects/Consumable/Drinks/pitcher.rsi",
+        "estado": "icon",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "origem": {
+        "id": "Pitcher",
+        "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_special.yml",
+        "line": 269
+      },
+      "uso": "servir"
+    },
+    {
+      "id": "DrinkGlass",
+      "nome": "copo de vidro",
+      "descricao": "Um copo.",
+      "traducao": "pt",
+      "nomeTraducao": "pt",
+      "descricaoTraducao": "pt",
+      "tipo": "vidraria",
+      "capacidade": 30,
+      "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+      "cabeNaDispensa": true,
+      "sprite": {
+        "rsi": "Objects/Consumable/Drinks/glass_clear.rsi",
+        "estado": "icon",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "origem": {
+        "id": "DrinkGlass",
+        "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks.yml",
+        "line": 273
+      },
+      "uso": "servir"
+    },
+    {
+      "id": "DrinkGlassCoupeShaped",
+      "nome": "coupe glass",
+      "descricao": "A classic thin neck coupe glass, the icon of fragile labels on crates around the galaxy.",
+      "traducao": "en",
+      "nomeTraducao": "en",
+      "descricaoTraducao": "en",
+      "tipo": "vidraria",
+      "capacidade": 30,
+      "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+      "cabeNaDispensa": true,
+      "sprite": {
+        "rsi": "Objects/Consumable/Drinks/glass_coupe_shape.rsi",
+        "estado": "icon",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "origem": {
+        "id": "DrinkGlassCoupeShaped",
+        "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks.yml",
+        "line": 307
+      },
+      "uso": "servir"
+    },
+    {
+      "id": "DrinkJigger",
+      "nome": "jigger",
+      "descricao": "Like a shaker, but smaller. Used to control the amount of ingredients.",
+      "traducao": "en",
+      "nomeTraducao": "en",
+      "descricaoTraducao": "en",
+      "tipo": "ferramenta",
+      "capacidade": 20,
+      "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+      "cabeNaDispensa": true,
+      "sprite": {
+        "rsi": "Objects/Consumable/Drinks/jigger.rsi",
+        "estado": "icon",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "origem": {
+        "id": "DrinkJigger",
+        "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_special.yml",
+        "line": 225
+      },
+      "uso": "medir"
+    },
+    {
+      "id": "DrinkShotGlass",
+      "nome": "shot",
+      "descricao": "Perfeito para bater na mesa com raiva.",
+      "traducao": "pt",
+      "nomeTraducao": "pt",
+      "descricaoTraducao": "pt",
+      "tipo": "vidraria",
+      "capacidade": 5,
+      "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+      "cabeNaDispensa": true,
+      "sprite": {
+        "rsi": "Objects/Consumable/Drinks/shotglass.rsi",
+        "estado": "icon",
+        "largura": 32,
+        "altura": 32,
+        "direcoes": 1,
+        "colunas": 1,
+        "linhas": 1
+      },
+      "origem": {
+        "id": "DrinkShotGlass",
+        "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_special.yml",
+        "line": 135
+      },
+      "uso": "servir"
+    }
+  ],
+  "fonte": {
+    "arquivo": "Resources/ServerInfo/Guidebook/Service/Bartender.xml",
+    "url": "https://github.com/Project-Dumont/Dumont-Station"
+  }
+}

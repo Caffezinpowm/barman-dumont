@@ -1,0 +1,4721 @@
+[
+  {
+    "id": "Absinthe",
+    "nome": "absinto",
+    "descricao": "Uma bebida destilada feita a partir de anis e outras ervar.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#33EE00",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "BacchusBlessing",
+        "nome": "bacchus's blessing",
+        "quantidade": 1,
+        "receitaId": "BacchusBlessing",
+        "metodo": null
+      },
+      {
+        "bebidaId": "DeathInTheAfternoon",
+        "nome": "death in the afternoon",
+        "quantidade": 2,
+        "receitaId": "DeathInTheAfternoon",
+        "metodo": null
+      },
+      {
+        "bebidaId": "MonkeyBusiness",
+        "nome": "monkey business",
+        "quantidade": 1,
+        "receitaId": "MonkeyBusiness",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "TheSunAlsoRises",
+        "nome": "the sun also rises",
+        "quantidade": 1,
+        "receitaId": "TheSunAlsoRises",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Absinthe",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 84
+    }
+  },
+  {
+    "id": "Water",
+    "nome": "água",
+    "descricao": "Um líquido incolor, inodoro e insípido que humanos precisam para sobreviver.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#75b1f0",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "sem-alcool",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "SodaWater",
+        "nome": "água com gás",
+        "quantidade": 5,
+        "receitaId": "SodaWater",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "HotCocoa",
+        "nome": "Cacau Quente",
+        "quantidade": 1,
+        "receitaId": "HotCocoa",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Coffee",
+        "nome": "café",
+        "quantidade": 3,
+        "receitaId": "Coffee",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "Tea",
+        "nome": "chá",
+        "quantidade": 5,
+        "receitaId": "Tea",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Grog",
+        "nome": "grog",
+        "quantidade": 2,
+        "receitaId": "Grog",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Lemonade",
+        "nome": "limonada",
+        "quantidade": 1,
+        "receitaId": "Lemonade",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "HotRamen",
+        "nome": "miojo quente",
+        "quantidade": 2,
+        "receitaId": "HotRamen",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Posca",
+        "nome": "posca",
+        "quantidade": 1,
+        "receitaId": "Posca",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Cola",
+        "nome": "refri de cola",
+        "quantidade": 1,
+        "receitaId": "Cola",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Vodka",
+        "nome": "vodka",
+        "quantidade": 1,
+        "receitaId": "Vodka",
+        "metodo": "Stir"
+      }
+    ],
+    "origem": {
+      "id": "Water",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/drinks.yml",
+      "line": 541
+    }
+  },
+  {
+    "id": "SodaWater",
+    "nome": "água com gás",
+    "descricao": "Cuidado para não causar uma guerra cívil. É só água com gás.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#619494",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "sem-alcool",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "GinFizz",
+        "nome": "gin fizz",
+        "quantidade": 1,
+        "receitaId": "GinFizz",
+        "metodo": null
+      },
+      {
+        "bebidaId": "KiraSpecial",
+        "nome": "kira special",
+        "quantidade": 1,
+        "receitaId": "KiraSpecial",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "Mojito",
+        "nome": "mojito",
+        "quantidade": 1,
+        "receitaId": "Mojito",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "LemonLime",
+        "nome": "refri lima-limão",
+        "quantidade": 1,
+        "receitaId": "LemonLime",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "WhiskeySoda",
+        "nome": "whisky soda",
+        "quantidade": 2,
+        "receitaId": "WhiskeySoda",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "SodaWater",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/drinks.yml",
+      "line": 467
+    }
+  },
+  {
+    "id": "TonicWater",
+    "nome": "água tônica",
+    "descricao": "Tem gosto estranho mas pelo menos a quinina mantém a Malária Espacial longe.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#0064C8",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "sem-alcool",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "GinTonic",
+        "nome": "gin e tônica",
+        "quantidade": 2,
+        "receitaId": "GinTonic",
+        "metodo": null
+      },
+      {
+        "bebidaId": "VodkaTonic",
+        "nome": "vodka e tônica",
+        "quantidade": 2,
+        "receitaId": "VodkaTonic",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "TonicWater",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/drinks.yml",
+      "line": 525
+    }
+  },
+  {
+    "id": "Ale",
+    "nome": "ale",
+    "descricao": "Uma bebida alcólica escura feita de cevada maltada e fermento.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#663100",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "ErikaSurprise",
+        "nome": "erika suprise",
+        "quantidade": 2,
+        "receitaId": "ErikaSurprise",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "IrishCarBomb",
+        "nome": "irish car bomb",
+        "quantidade": 1,
+        "receitaId": "IrishCarBomb",
+        "metodo": null
+      },
+      {
+        "bebidaId": "ManlyDorf",
+        "nome": "viril anão",
+        "quantidade": 2,
+        "receitaId": "ManlyDorf",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Ale",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 129
+    }
+  },
+  {
+    "id": "B52",
+    "nome": "b-52",
+    "descricao": "Café, creme irlandês e conhaque. Você vai ser bombardeado.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#664300",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "AtomicBomb",
+        "nome": "bomba atômica",
+        "quantidade": 10,
+        "receitaId": "AtomicBomb",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "B52",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 764
+    }
+  },
+  {
+    "id": "BlackRussian",
+    "nome": "black russian",
+    "descricao": "Para os intolerantes a lactose. Ainda elegante como White Russian.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#360000",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "EspressoMartini",
+        "nome": "espresso martini",
+        "quantidade": 1,
+        "receitaId": "EspressoMartini",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "WhiteRussian",
+        "nome": "white russian",
+        "quantidade": 1,
+        "receitaId": "WhiteRussian",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "BlackRussian",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 856
+    }
+  },
+  {
+    "id": "BloodyMary",
+    "nome": "bloody mary",
+    "descricao": "Uma estranha, porém ainda prazerosa mistura feita de vodka, tomate, e suco de limão.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#df6a50",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "Vampiro",
+        "nome": "vampiro",
+        "quantidade": 1,
+        "receitaId": "Vampiro",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "BloodyMary",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 879
+    }
+  },
+  {
+    "id": "SyndicateBomb",
+    "nome": "bomba do Sindicato",
+    "descricao": "Alguém planta a bomba!",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#e3e77b",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "BacchusBlessing",
+        "nome": "bacchus's blessing",
+        "quantidade": 1,
+        "receitaId": "BacchusBlessing",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "SyndicateBomb",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 1905
+    }
+  },
+  {
+    "id": "Coffee",
+    "nome": "café",
+    "descricao": "Aceitas um cafézinho? Contém uma quantidade moderada de cafeína.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#664300",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "sem-alcool",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "IcedCoffee",
+        "nome": "café gelado",
+        "quantidade": 2,
+        "receitaId": "IcedCoffee",
+        "metodo": null
+      },
+      {
+        "bebidaId": "IrishCoffee",
+        "nome": "café irlandês",
+        "quantidade": 1,
+        "receitaId": "IrishCoffee",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "CafeLatte",
+        "nome": "cafe latte",
+        "quantidade": 1,
+        "receitaId": "CafeLatte",
+        "metodo": null
+      },
+      {
+        "bebidaId": "EspressoMartini",
+        "nome": "espresso martini",
+        "quantidade": 1,
+        "receitaId": "EspressoMartini",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "FourteenLoko",
+        "nome": "Fourteen Loko",
+        "quantidade": 1,
+        "receitaId": "FourteenLoko",
+        "metodo": null
+      },
+      {
+        "bebidaId": "SoyLatte",
+        "nome": "latte de soja",
+        "quantidade": 1,
+        "receitaId": "SoyLatte",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Rewriter",
+        "nome": "rewriter",
+        "quantidade": 1,
+        "receitaId": "Rewriter",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Coffee",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/drinks.yml",
+      "line": 55
+    }
+  },
+  {
+    "id": "Beer",
+    "nome": "cerveja",
+    "descricao": "Vai uma brejinha? Feita de grãos maltados, lúpulos, fermento e água.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#e3e77b",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "SyndicateBomb",
+        "nome": "bomba do Sindicato",
+        "quantidade": 1,
+        "receitaId": "SyndicateBomb",
+        "metodo": null
+      },
+      {
+        "bebidaId": "IcedBeer",
+        "nome": "cerveja geladassa",
+        "quantidade": 5,
+        "receitaId": "IcedBeer",
+        "metodo": null
+      },
+      {
+        "bebidaId": "IcedBeer",
+        "nome": "cerveja geladassa",
+        "quantidade": 10,
+        "receitaId": "IcedBeerAlt",
+        "metodo": null
+      },
+      {
+        "bebidaId": "WhiteGilgamesh",
+        "nome": "gilgamesh branco",
+        "quantidade": 2,
+        "receitaId": "WhiteGilgamesh",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Radler",
+        "nome": "radler",
+        "quantidade": 1,
+        "receitaId": "Radler",
+        "metodo": null
+      },
+      {
+        "bebidaId": "SnowWhite",
+        "nome": "snow white",
+        "quantidade": 1,
+        "receitaId": "SnowWhite",
+        "metodo": null
+      },
+      {
+        "bebidaId": "ManlyDorf",
+        "nome": "viril anão",
+        "quantidade": 1,
+        "receitaId": "ManlyDorf",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Beer",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 146
+    }
+  },
+  {
+    "id": "Tea",
+    "nome": "chá",
+    "descricao": "Uma bebida feita fervendo, em água, folhas da árvore de chá, Camellia sinensis.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#8a5a3a",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "sem-alcool",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "IcedTea",
+        "nome": "chá gelado",
+        "quantidade": 2,
+        "receitaId": "IcedTea",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Tea",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/drinks.yml",
+      "line": 501
+    }
+  },
+  {
+    "id": "IcedTea",
+    "nome": "chá gelado",
+    "descricao": "Quem não gosta de um chá gelado? Não precisa responder.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#6C3916",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "sem-alcool",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "ArnoldPalmer",
+        "nome": "Arnold Palmer",
+        "quantidade": 1,
+        "receitaId": "ArnoldPalmer",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Tortuga",
+        "nome": "Tortuga",
+        "quantidade": 1,
+        "receitaId": "Tortuga",
+        "metodo": "Stir"
+      }
+    ],
+    "origem": {
+      "id": "IcedTea",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/drinks.yml",
+      "line": 275
+    }
+  },
+  {
+    "id": "GreenTea",
+    "nome": "chá verde",
+    "descricao": "Saboroso chá verde.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#7EB626",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "sem-alcool",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "IcedGreenTea",
+        "nome": "chá verde gelado",
+        "quantidade": 2,
+        "receitaId": "IcedGreenTea",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "GreenTea",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/drinks.yml",
+      "line": 204
+    }
+  },
+  {
+    "id": "Champagne",
+    "nome": "champagne",
+    "descricao": "Um vinho espumante finíssimo",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#FCFCEE",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "DeathInTheAfternoon",
+        "nome": "death in the afternoon",
+        "quantidade": 1,
+        "receitaId": "DeathInTheAfternoon",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Empress75",
+        "nome": "empress 75",
+        "quantidade": 2,
+        "receitaId": "Empress75",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Mimosa",
+        "nome": "mimosa",
+        "quantidade": 1,
+        "receitaId": "Mimosa",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Champagne",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 595
+    }
+  },
+  {
+    "id": "CoconutRum",
+    "nome": "coconut rum",
+    "descricao": "Rum with coconut for that tropical feel.",
+    "traducao": "en",
+    "nomeTraducao": "en",
+    "descricaoTraducao": "en",
+    "cor": "#cccbc8",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "BahamaMama",
+        "nome": "bahama mama",
+        "quantidade": 1,
+        "receitaId": "BahamaMama",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "BlueHawaiian",
+        "nome": "Blue Hawaiian",
+        "quantidade": 2,
+        "receitaId": "BlueHawaiian",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Painkiller",
+        "nome": "painkiller",
+        "quantidade": 1,
+        "receitaId": "Painkiller",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "CoconutRum",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 947
+    }
+  },
+  {
+    "id": "CoconutWater",
+    "nome": "coconut water",
+    "descricao": "A favorite of survivors on deserted islands.",
+    "traducao": "en",
+    "nomeTraducao": "en",
+    "descricaoTraducao": "en",
+    "cor": "#f4eadb",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "sem-alcool",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "CoconutRum",
+        "nome": "coconut rum",
+        "quantidade": 1,
+        "receitaId": "CoconutRum",
+        "metodo": null
+      },
+      {
+        "bebidaId": "CreamOfCoconut",
+        "nome": "cream of coconut",
+        "quantidade": 1,
+        "receitaId": "CreamOfCoconut",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "CoconutWater",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/drinks.yml",
+      "line": 152
+    }
+  },
+  {
+    "id": "Cognac",
+    "nome": "conhaque",
+    "descricao": "Uma bebida alcólica doce e forte, destilada duas vezes e deixada para envelhecer por muitos anos.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#AB3C05",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "B52",
+        "nome": "b-52",
+        "quantidade": 1,
+        "receitaId": "B52",
+        "metodo": null
+      },
+      {
+        "bebidaId": "CogChamp",
+        "nome": "cogchamp",
+        "quantidade": 1,
+        "receitaId": "CogChamp",
+        "metodo": null
+      },
+      {
+        "bebidaId": "JackRose",
+        "nome": "Jack rose",
+        "quantidade": 1,
+        "receitaId": "JackRose",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "GargleBlaster",
+        "nome": "Pan-Galactic Gargle Blaster",
+        "quantidade": 1,
+        "receitaId": "GargleBlaster",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "Cognac",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 186
+    }
+  },
+  {
+    "id": "CreamOfCoconut",
+    "nome": "cream of coconut",
+    "descricao": "Sweet, syrupy version of coconut cream with added sugar.",
+    "traducao": "en",
+    "nomeTraducao": "en",
+    "descricaoTraducao": "en",
+    "cor": "#FFEABF",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "sem-alcool",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "Painkiller",
+        "nome": "painkiller",
+        "quantidade": 1,
+        "receitaId": "Painkiller",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "PinaColada",
+        "nome": "Piña Colada",
+        "quantidade": 1,
+        "receitaId": "PinaColada",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "CreamOfCoconut",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/drinks.yml",
+      "line": 166
+    }
+  },
+  {
+    "id": "IrishCream",
+    "nome": "creme irlandês",
+    "descricao": "Creme imbuído com whiskey. O que mais você esperaria dos irlandeses.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#664300",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "AlienBrainHemorrhage",
+        "nome": "alien brain hemorrhage",
+        "quantidade": 1,
+        "receitaId": "AlienBrainHemorrhage",
+        "metodo": null
+      },
+      {
+        "bebidaId": "IrishCoffee",
+        "nome": "café irlandês",
+        "quantidade": 1,
+        "receitaId": "IrishCoffee",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "IrishCarBomb",
+        "nome": "irish car bomb",
+        "quantidade": 1,
+        "receitaId": "IrishCarBomb",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "IrishCream",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 1363
+    }
+  },
+  {
+    "id": "CubaLibre",
+    "nome": "cuba libre",
+    "descricao": "Rum, misturado com refri de cola. Viva la revolucion.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#3E1B00",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "LongIslandIcedTea",
+        "nome": "long island iced tea",
+        "quantidade": 3,
+        "receitaId": "LongIslandIcedTea",
+        "metodo": "Stir"
+      }
+    ],
+    "origem": {
+      "id": "CubaLibre",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 1008
+    }
+  },
+  {
+    "id": "BlueCuracao",
+    "nome": "curaçau azul",
+    "descricao": "Uma bebida exótica azul, destilado de laranjas de Curaçao.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#0099FF",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "AlienBrainHemorrhage",
+        "nome": "alien brain hemorrhage",
+        "quantidade": 1,
+        "receitaId": "AlienBrainHemorrhage",
+        "metodo": null
+      },
+      {
+        "bebidaId": "BlueHawaiian",
+        "nome": "Blue Hawaiian",
+        "quantidade": 1,
+        "receitaId": "BlueHawaiian",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "ElectricShark",
+        "nome": "electric shark",
+        "quantidade": 1,
+        "receitaId": "ElectricShark",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "SuiDream",
+        "nome": "sui dream",
+        "quantidade": 1,
+        "receitaId": "SuiDream",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "BlueCuracao",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 163
+    }
+  },
+  {
+    "id": "Daiquiri",
+    "nome": "daiquiri",
+    "descricao": "A classic rum cocktail which remains popular even in the cold reaches of space.",
+    "traducao": "en",
+    "nomeTraducao": "en",
+    "descricaoTraducao": "en",
+    "cor": "#DAC865",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "TheSunAlsoRises",
+        "nome": "the sun also rises",
+        "quantidade": 5,
+        "receitaId": "TheSunAlsoRises",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Daiquiri",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 2560
+    }
+  },
+  {
+    "id": "DarkandStormy",
+    "nome": "dark & stormy",
+    "descricao": "You can almost hear the thunder.",
+    "traducao": "en",
+    "nomeTraducao": "en",
+    "descricaoTraducao": "en",
+    "cor": "#cf7f17",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "ElectricShark",
+        "nome": "electric shark",
+        "quantidade": 4,
+        "receitaId": "ElectricShark",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "DarkandStormy",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 1032
+    }
+  },
+  {
+    "id": "DrGibb",
+    "nome": "Dr. Gibb",
+    "descricao": "Uma mistura deliciosa de 42 sabores difirentes.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#102000",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "refrigerante",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "DemonsBlood",
+        "nome": "demons blood",
+        "quantidade": 1,
+        "receitaId": "DemonsBlood",
+        "metodo": "Stir"
+      }
+    ],
+    "origem": {
+      "id": "DrGibb",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/soda.yml",
+      "line": 90
+    }
+  },
+  {
+    "id": "EnergyDrink",
+    "nome": "energético",
+    "descricao": "Uma dose de energia! A Nanotransen não é responsável se você crescer apêndices de ave.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#ffffbf",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "refrigerante",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "IrishBool",
+        "nome": "Irish bool",
+        "quantidade": 1,
+        "receitaId": "IrishBool",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Rubberneck",
+        "nome": "rubberneck",
+        "quantidade": 2,
+        "receitaId": "Rubberneck",
+        "metodo": null
+      },
+      {
+        "bebidaId": "VodkaRedBool",
+        "nome": "vodka red bool",
+        "quantidade": 2,
+        "receitaId": "VodkaRedBool",
+        "metodo": null
+      },
+      {
+        "bebidaId": "WatermelonWakeup",
+        "nome": "watermelon wakeup",
+        "quantidade": 1,
+        "receitaId": "WatermelonWakeup",
+        "metodo": null
+      },
+      {
+        "bebidaId": "XenoBasher",
+        "nome": "Xeno Basher",
+        "quantidade": 1,
+        "receitaId": "XenoBasher",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "EnergyDrink",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/soda.yml",
+      "line": 105
+    }
+  },
+  {
+    "id": "Ethanol",
+    "nome": "etanol",
+    "descricao": "Um álcool simples, te deixa bêbado. Inflamável.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#b05b3c",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "Hooch",
+        "nome": "hooch",
+        "quantidade": 2,
+        "receitaId": "Hooch",
+        "metodo": null
+      },
+      {
+        "bebidaId": "TorpedoJuice",
+        "nome": "torpedo juice",
+        "quantidade": 2,
+        "receitaId": "TorpedoJuice",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Vodka",
+        "nome": "vodka",
+        "quantidade": 1,
+        "receitaId": "Vodka",
+        "metodo": "Stir"
+      }
+    ],
+    "origem": {
+      "id": "Ethanol",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 233
+    }
+  },
+  {
+    "id": "Gin",
+    "nome": "gin",
+    "descricao": "Uma bebida destilada que tem seu sabor principal vindo de bagas de zimbro.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#664300",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "BeesKnees",
+        "nome": "bee’s knees",
+        "quantidade": 1,
+        "receitaId": "BeesKnees",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Bronx",
+        "nome": "Bronx",
+        "quantidade": 1,
+        "receitaId": "Bronx",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "DriestMartini",
+        "nome": "driest martini",
+        "quantidade": 1,
+        "receitaId": "DriestMartini",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Empress75",
+        "nome": "empress 75",
+        "quantidade": 2,
+        "receitaId": "Empress75",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "GinTonic",
+        "nome": "gin e tônica",
+        "quantidade": 1,
+        "receitaId": "GinTonic",
+        "metodo": null
+      },
+      {
+        "bebidaId": "GinFizz",
+        "nome": "gin fizz",
+        "quantidade": 1,
+        "receitaId": "GinFizz",
+        "metodo": null
+      },
+      {
+        "bebidaId": "LongIslandIcedTea",
+        "nome": "long island iced tea",
+        "quantidade": 1,
+        "receitaId": "LongIslandIcedTea",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "Martini",
+        "nome": "martini clássico",
+        "quantidade": 2,
+        "receitaId": "Martini",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "DirtyMartini",
+        "nome": "martini sujo",
+        "quantidade": 2,
+        "receitaId": "DirtyMartini",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "MonkeyBusiness",
+        "nome": "monkey business",
+        "quantidade": 1,
+        "receitaId": "MonkeyBusiness",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "GargleBlaster",
+        "nome": "Pan-Galactic Gargle Blaster",
+        "quantidade": 1,
+        "receitaId": "GargleBlaster",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "Gin",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 342
+    }
+  },
+  {
+    "id": "GinTonic",
+    "nome": "gin e tônica",
+    "descricao": "Um clássico atemporal, coquetel suave.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#004166",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "GinAndSonic",
+        "nome": "gin and sonic",
+        "quantidade": 1,
+        "receitaId": "GinAndSonic",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "GinTonic",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 1238
+    }
+  },
+  {
+    "id": "Grenadine",
+    "nome": "grenadine",
+    "descricao": "Não tem aroma de cerejas!",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#EA1D26",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "sem-alcool",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "AlienBrainHemorrhage",
+        "nome": "alien brain hemorrhage",
+        "quantidade": 1,
+        "receitaId": "AlienBrainHemorrhage",
+        "metodo": null
+      },
+      {
+        "bebidaId": "BahamaMama",
+        "nome": "bahama mama",
+        "quantidade": 1,
+        "receitaId": "BahamaMama",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Empress75",
+        "nome": "empress 75",
+        "quantidade": 1,
+        "receitaId": "Empress75",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "JackRose",
+        "nome": "Jack rose",
+        "quantidade": 1,
+        "receitaId": "JackRose",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "JungleBird",
+        "nome": "jungle bird",
+        "quantidade": 1,
+        "receitaId": "JungleBird",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "MonkeyBusiness",
+        "nome": "monkey business",
+        "quantidade": 1,
+        "receitaId": "MonkeyBusiness",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "RoyRogers",
+        "nome": "Roy Rogers",
+        "quantidade": 1,
+        "receitaId": "RoyRogers",
+        "metodo": null
+      },
+      {
+        "bebidaId": "ShirleyTemple",
+        "nome": "Shirley Temple",
+        "quantidade": 1,
+        "receitaId": "ShirleyTemple",
+        "metodo": null
+      },
+      {
+        "bebidaId": "ZombieCocktail",
+        "nome": "Zombie",
+        "quantidade": 1,
+        "receitaId": "ZombieCocktail",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Grenadine",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/drinks.yml",
+      "line": 219
+    }
+  },
+  {
+    "id": "Hooch",
+    "nome": "hooch",
+    "descricao": "Ou a falha de alguém em fazer coquetéis ou na tentativa de produzir álcool. De qualquer forma, você realmente vai beber isso?",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#664e00",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "BacchusBlessing",
+        "nome": "bacchus's blessing",
+        "quantidade": 1,
+        "receitaId": "BacchusBlessing",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Hooch",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 1315
+    }
+  },
+  {
+    "id": "IrishCarBomb",
+    "nome": "irish car bomb",
+    "descricao": "Uma mistura problemática de creme irlandês e ale.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#2E6671",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "B52",
+        "nome": "b-52",
+        "quantidade": 1,
+        "receitaId": "B52",
+        "metodo": null
+      },
+      {
+        "bebidaId": "IrishBool",
+        "nome": "Irish bool",
+        "quantidade": 1,
+        "receitaId": "IrishBool",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "IrishCarBomb",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 1340
+    }
+  },
+  {
+    "id": "CoffeeLiqueur",
+    "nome": "licor de café",
+    "descricao": "Licor aromatizado com café e especiarias.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#664300",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "B52",
+        "nome": "b-52",
+        "quantidade": 1,
+        "receitaId": "B52",
+        "metodo": null
+      },
+      {
+        "bebidaId": "BlackRussian",
+        "nome": "black russian",
+        "quantidade": 1,
+        "receitaId": "BlackRussian",
+        "metodo": null
+      },
+      {
+        "bebidaId": "BraveBull",
+        "nome": "brave bull",
+        "quantidade": 1,
+        "receitaId": "BraveBull",
+        "metodo": null
+      },
+      {
+        "bebidaId": "DevilsKiss",
+        "nome": "devils kiss",
+        "quantidade": 1,
+        "receitaId": "DevilsKiss",
+        "metodo": "Stir"
+      }
+    ],
+    "origem": {
+      "id": "CoffeeLiqueur",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 366
+    }
+  },
+  {
+    "id": "MelonLiquor",
+    "nome": "licor de melão",
+    "descricao": "Um licor relativamente doce feito de melão.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#00FF33",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "SuiDream",
+        "nome": "sui dream",
+        "quantidade": 1,
+        "receitaId": "SuiDream",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "MelonLiquor",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 381
+    }
+  },
+  {
+    "id": "Lemonade",
+    "nome": "limonada",
+    "descricao": "Suco de limão, só que com água e um adocicante, como açucar ou mel.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#FFFF00",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "suco",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "ArnoldPalmer",
+        "nome": "Arnold Palmer",
+        "quantidade": 1,
+        "receitaId": "ArnoldPalmer",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Radler",
+        "nome": "radler",
+        "quantidade": 1,
+        "receitaId": "Radler",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Lemonade",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/drinks.yml",
+      "line": 322
+    }
+  },
+  {
+    "id": "LongIslandIcedTea",
+    "nome": "long island iced tea",
+    "descricao": "O armário de bebidas, reunido em uma deliciosa mistura. Feito para mulheres alcoólicas de meia idade, apenas.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#664300",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "ThreeMileIsland",
+        "nome": "three mile island iced tea",
+        "quantidade": 10,
+        "receitaId": "ThreeMileIsland",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "LongIslandIcedTea",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 1454
+    }
+  },
+  {
+    "id": "Martini",
+    "nome": "martini clássico",
+    "descricao": "Vermouth com Gin. Não exatamente como o 007 bebia, mas ainda delicioso.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#664300",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "AlliesCocktail",
+        "nome": "allies cocktail",
+        "quantidade": 2,
+        "receitaId": "AlliesCocktail",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "Martini",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 1538
+    }
+  },
+  {
+    "id": "Mead",
+    "nome": "mead",
+    "descricao": "A bebida de um Viking, embora uma barata.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#664300",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "BeesKnees",
+        "nome": "bee’s knees",
+        "quantidade": 1,
+        "receitaId": "BeesKnees",
+        "metodo": null
+      },
+      {
+        "bebidaId": "RedMead",
+        "nome": "red mead",
+        "quantidade": 1,
+        "receitaId": "RedMead",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Mead",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 1561
+    }
+  },
+  {
+    "id": "Mimosa",
+    "nome": "mimosa",
+    "descricao": "Perfect for a lively brunch out with the girls.",
+    "traducao": "en",
+    "nomeTraducao": "en",
+    "descricaoTraducao": "en",
+    "cor": "#FFCA48",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "Mimeosa",
+        "nome": "mimeosa",
+        "quantidade": 2,
+        "receitaId": "Mimeosa",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Mimosa",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 2436
+    }
+  },
+  {
+    "id": "DryRamen",
+    "nome": "miojo seco",
+    "descricao": "Miojo seco e com sal.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#664300",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "sem-alcool",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "HotRamen",
+        "nome": "miojo quente",
+        "quantidade": 5,
+        "receitaId": "HotRamen",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "DryRamen",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/drinks.yml",
+      "line": 629
+    }
+  },
+  {
+    "id": "Mojito",
+    "nome": "mojito",
+    "descricao": "Se é bom suficiente pra Cuba, é bom o suficiente para você.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#3ea99888",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "Mayojito",
+        "nome": "mayojito",
+        "quantidade": 1,
+        "receitaId": "Mayojito",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Mojito",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 1577
+    }
+  },
+  {
+    "id": "Moonshine",
+    "nome": "moonshine",
+    "descricao": "Licor artesenal feito em casa. O que poderia dar de errado?",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#d1d7d155",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "PineappleBlast",
+        "nome": "pineapple blast",
+        "quantidade": 2,
+        "receitaId": "PineappleBlast",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Rubberneck",
+        "nome": "rubberneck",
+        "quantidade": 1,
+        "receitaId": "Rubberneck",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Moonshine",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 1608
+    }
+  },
+  {
+    "id": "GargleBlaster",
+    "nome": "Pan-Galactic Gargle Blaster",
+    "descricao": "Uoa, isso parece volátil!",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#9cc8b4",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "HippiesDelight",
+        "nome": "hippies delight",
+        "quantidade": 1,
+        "receitaId": "HippiesDelight",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Neurotoxin",
+        "nome": "neurotoxina",
+        "quantidade": 1,
+        "receitaId": "Neurotoxin",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "GargleBlaster",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 1191
+    }
+  },
+  {
+    "id": "Cola",
+    "nome": "refri de cola",
+    "descricao": "Um doce e carbonatado refrigerante. Livre de cafeína.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#6c2828",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "refrigerante",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "CubaLibre",
+        "nome": "cuba libre",
+        "quantidade": 2,
+        "receitaId": "CubaLibre",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Kalimotxo",
+        "nome": "kalimotxo",
+        "quantidade": 1,
+        "receitaId": "Kalimotxo",
+        "metodo": null
+      },
+      {
+        "bebidaId": "TheMartinez",
+        "nome": "O Martinez",
+        "quantidade": 2,
+        "receitaId": "TheMartinez",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Pilk",
+        "nome": "pilk",
+        "quantidade": 1,
+        "receitaId": "Pilk",
+        "metodo": null
+      },
+      {
+        "bebidaId": "NuclearCola",
+        "nome": "refri de cola nuclear",
+        "quantidade": 5,
+        "receitaId": "NuclearCola",
+        "metodo": null
+      },
+      {
+        "bebidaId": "RoyRogers",
+        "nome": "Roy Rogers",
+        "quantidade": 2,
+        "receitaId": "RoyRogers",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Starkist",
+        "nome": "starkist",
+        "quantidade": 1,
+        "receitaId": "Starkist",
+        "metodo": null
+      },
+      {
+        "bebidaId": "WhiskeyCola",
+        "nome": "whisky cola",
+        "quantidade": 2,
+        "receitaId": "WhiskeyCola",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Cola",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/soda.yml",
+      "line": 31
+    }
+  },
+  {
+    "id": "LemonLime",
+    "nome": "refri lima-limão",
+    "descricao": "Refri picante de limão e limão siciliano.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#878F00",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "refrigerante",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "SnowWhite",
+        "nome": "snow white",
+        "quantidade": 1,
+        "receitaId": "SnowWhite",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Vampiro",
+        "nome": "vampiro",
+        "quantidade": 1,
+        "receitaId": "Vampiro",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "LemonLime",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/soda.yml",
+      "line": 153
+    }
+  },
+  {
+    "id": "RootBeer",
+    "nome": "root beer",
+    "descricao": "Uma bebida norte-americana carbonatada e muito doce que lembra sarsaparrila. Cai bem com sorvete.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#381c07",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "refrigerante",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "RootBeerFloat",
+        "nome": "root beer float",
+        "quantidade": 2,
+        "receitaId": "RootBeerFloat",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "RootBeer",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/soda.yml",
+      "line": 181
+    }
+  },
+  {
+    "id": "RootBeerFloat",
+    "nome": "root beer float",
+    "descricao": "Root beer, mas com sorvete no topo. O verdadeiro Magnum Opus do verão canadense.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#4f361f",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "refrigerante",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "CrushDepth",
+        "nome": "crush depth",
+        "quantidade": 1,
+        "receitaId": "CrushDepth",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "RootBeerFloat",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/soda.yml",
+      "line": 196
+    }
+  },
+  {
+    "id": "Rum",
+    "nome": "rum",
+    "descricao": "Bebida alcólica destilada feita de subprodutos da cana-de-açucar.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#f09f42",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "Andalusia",
+        "nome": "andalusia",
+        "quantidade": 1,
+        "receitaId": "Andalusia",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "BahamaMama",
+        "nome": "bahama mama",
+        "quantidade": 1,
+        "receitaId": "BahamaMama",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Booger",
+        "nome": "booger",
+        "quantidade": 1,
+        "receitaId": "Booger",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Caipirinha",
+        "nome": "caipirinha",
+        "quantidade": 1,
+        "receitaId": "Caipirinha",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "CoconutRum",
+        "nome": "coconut rum",
+        "quantidade": 2,
+        "receitaId": "CoconutRum",
+        "metodo": null
+      },
+      {
+        "bebidaId": "CrushDepth",
+        "nome": "crush depth",
+        "quantidade": 1,
+        "receitaId": "CrushDepth",
+        "metodo": null
+      },
+      {
+        "bebidaId": "CubaLibre",
+        "nome": "cuba libre",
+        "quantidade": 1,
+        "receitaId": "CubaLibre",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Daiquiri",
+        "nome": "daiquiri",
+        "quantidade": 4,
+        "receitaId": "Daiquiri",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "DarkandStormy",
+        "nome": "dark & stormy",
+        "quantidade": 1,
+        "receitaId": "DarkandStormy",
+        "metodo": null
+      },
+      {
+        "bebidaId": "DemonsBlood",
+        "nome": "demons blood",
+        "quantidade": 1,
+        "receitaId": "DemonsBlood",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "DevilsKiss",
+        "nome": "devils kiss",
+        "quantidade": 1,
+        "receitaId": "DevilsKiss",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "Eggnog",
+        "nome": "eggnog",
+        "quantidade": 5,
+        "receitaId": "Eggnog",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "GoldenCat",
+        "nome": "golden cat",
+        "quantidade": 2,
+        "receitaId": "GoldenCat",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "Grog",
+        "nome": "grog",
+        "quantidade": 1,
+        "receitaId": "Grog",
+        "metodo": null
+      },
+      {
+        "bebidaId": "JungleBird",
+        "nome": "jungle bird",
+        "quantidade": 3,
+        "receitaId": "JungleBird",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Mojito",
+        "nome": "mojito",
+        "quantidade": 1,
+        "receitaId": "Mojito",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "PinaColada",
+        "nome": "Piña Colada",
+        "quantidade": 1,
+        "receitaId": "PinaColada",
+        "metodo": null
+      },
+      {
+        "bebidaId": "ToxinsSpecial",
+        "nome": "toxins special",
+        "quantidade": 2,
+        "receitaId": "ToxinsSpecial",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "ZombieCocktail",
+        "nome": "Zombie",
+        "quantidade": 2,
+        "receitaId": "ZombieCocktail",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Rum",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 444
+    }
+  },
+  {
+    "id": "Sake",
+    "nome": "saquê",
+    "descricao": "Bebida alcólica feita fermentando arroz que foi polído.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#DDDDDD",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "BeastBlood",
+        "nome": "beast's blood",
+        "quantidade": 1,
+        "receitaId": "BeastBlood",
+        "metodo": null
+      },
+      {
+        "bebidaId": "BeastBlood",
+        "nome": "beast's blood",
+        "quantidade": 1,
+        "receitaId": "BeastBloodInsect",
+        "metodo": null
+      },
+      {
+        "bebidaId": "BeastBlood",
+        "nome": "beast's blood",
+        "quantidade": 1,
+        "receitaId": "BeastBloodCopper",
+        "metodo": null
+      },
+      {
+        "bebidaId": "BeastBlood",
+        "nome": "beast's blood",
+        "quantidade": 1,
+        "receitaId": "BeastBloodVox",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Sake",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 468
+    }
+  },
+  {
+    "id": "ScrewdriverCocktail",
+    "nome": "screwdriver",
+    "descricao": "Vodka, misturado com o bom e velho suquinho de laranja. O resultado é impressionantemente delicioso.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#A68310",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "CogChamp",
+        "nome": "cogchamp",
+        "quantidade": 1,
+        "receitaId": "CogChamp",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "ScrewdriverCocktail",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 1786
+    }
+  },
+  {
+    "id": "SolDry",
+    "nome": "Sol Dry",
+    "descricao": "Sweet ginger soda from outer space!",
+    "traducao": "en",
+    "nomeTraducao": "en",
+    "descricaoTraducao": "en",
+    "cor": "#ccb87e",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "refrigerante",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "DarkandStormy",
+        "nome": "dark & stormy",
+        "quantidade": 1,
+        "receitaId": "DarkandStormy",
+        "metodo": null
+      },
+      {
+        "bebidaId": "MoscowMule",
+        "nome": "moscow mule",
+        "quantidade": 1,
+        "receitaId": "MoscowMule",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "ShirleyTemple",
+        "nome": "Shirley Temple",
+        "quantidade": 2,
+        "receitaId": "ShirleyTemple",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "SolDry",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/soda.yml",
+      "line": 212
+    }
+  },
+  {
+    "id": "IceCream",
+    "nome": "sorvete",
+    "descricao": "Era isso ou o micro-ondas, e ninguém quer sopa de sorvete!",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#fffbd6",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "refrigerante",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "RootBeerFloat",
+        "nome": "root beer float",
+        "quantidade": 1,
+        "receitaId": "RootBeerFloat",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "IceCream",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/soda.yml",
+      "line": 136
+    }
+  },
+  {
+    "id": "SpaceMountainWind",
+    "nome": "Space Mountain Wind",
+    "descricao": "Assopra através de você como um vento espacial.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#a6fa5a",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "refrigerante",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "DemonsBlood",
+        "nome": "demons blood",
+        "quantidade": 1,
+        "receitaId": "DemonsBlood",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "Rewriter",
+        "nome": "rewriter",
+        "quantidade": 1,
+        "receitaId": "Rewriter",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "SpaceMountainWind",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/soda.yml",
+      "line": 247
+    }
+  },
+  {
+    "id": "SpaceUp",
+    "nome": "Space-Up",
+    "descricao": "Tem gosto de uma abertura no casco na sua boca.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#e3e3e37d",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "refrigerante",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "SuiDream",
+        "nome": "sui dream",
+        "quantidade": 1,
+        "receitaId": "SuiDream",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "SpaceUp",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/soda.yml",
+      "line": 262
+    }
+  },
+  {
+    "id": "JuicePineapple",
+    "nome": "suco de abacaxi",
+    "descricao": "O suco delicioso de um abacaxi.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "yellow",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "suco",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "BahamaMama",
+        "nome": "bahama mama",
+        "quantidade": 1,
+        "receitaId": "BahamaMama",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "BlueHawaiian",
+        "nome": "Blue Hawaiian",
+        "quantidade": 1,
+        "receitaId": "BlueHawaiian",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "ElectricShark",
+        "nome": "electric shark",
+        "quantidade": 1,
+        "receitaId": "ElectricShark",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "JungleBird",
+        "nome": "jungle bird",
+        "quantidade": 1,
+        "receitaId": "JungleBird",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Painkiller",
+        "nome": "painkiller",
+        "quantidade": 3,
+        "receitaId": "Painkiller",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "PinaColada",
+        "nome": "Piña Colada",
+        "quantidade": 3,
+        "receitaId": "PinaColada",
+        "metodo": null
+      },
+      {
+        "bebidaId": "PineappleBlast",
+        "nome": "pineapple blast",
+        "quantidade": 2,
+        "receitaId": "PineappleBlast",
+        "metodo": null
+      },
+      {
+        "bebidaId": "TorpedoJuice",
+        "nome": "torpedo juice",
+        "quantidade": 2,
+        "receitaId": "TorpedoJuice",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "JuicePineapple",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/juice.yml",
+      "line": 222
+    }
+  },
+  {
+    "id": "JuiceBanana",
+    "nome": "suco de banana",
+    "descricao": "A essência pura de uma banana. HONK.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#FFE777",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "suco",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "BananaHonk",
+        "nome": "banana honk",
+        "quantidade": 1,
+        "receitaId": "BananaHonk",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Booger",
+        "nome": "booger",
+        "quantidade": 1,
+        "receitaId": "Booger",
+        "metodo": null
+      },
+      {
+        "bebidaId": "ErikaSurprise",
+        "nome": "erika suprise",
+        "quantidade": 1,
+        "receitaId": "ErikaSurprise",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "JuiceBanana",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/juice.yml",
+      "line": 79
+    }
+  },
+  {
+    "id": "JuiceBerry",
+    "nome": "suco de frutas vermelhas",
+    "descricao": "Uma mistura deliciosa de vários frutos diferentes.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#660099",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "suco",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "Barefoot",
+        "nome": "barefoot",
+        "quantidade": 1,
+        "receitaId": "Barefoot",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Cosmopolitan",
+        "nome": "cosmopolitan",
+        "quantidade": 1,
+        "receitaId": "Cosmopolitan",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "JuiceBerry",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/juice.yml",
+      "line": 88
+    }
+  },
+  {
+    "id": "JuiceOrange",
+    "nome": "suco de laranja",
+    "descricao": "Deliciose E rico em vitamina C. O que mais você precisa?",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#E78108",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "suco",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "BahamaMama",
+        "nome": "bahama mama",
+        "quantidade": 1,
+        "receitaId": "BahamaMama",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Bronx",
+        "nome": "Bronx",
+        "quantidade": 1,
+        "receitaId": "Bronx",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "KiraSpecial",
+        "nome": "kira special",
+        "quantidade": 1,
+        "receitaId": "KiraSpecial",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "Mimosa",
+        "nome": "mimosa",
+        "quantidade": 2,
+        "receitaId": "Mimosa",
+        "metodo": null
+      },
+      {
+        "bebidaId": "MonkeyBusiness",
+        "nome": "monkey business",
+        "quantidade": 1,
+        "receitaId": "MonkeyBusiness",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Painkiller",
+        "nome": "painkiller",
+        "quantidade": 1,
+        "receitaId": "Painkiller",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "ScrewdriverCocktail",
+        "nome": "screwdriver",
+        "quantidade": 2,
+        "receitaId": "ScrewdriverCocktail",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Starkist",
+        "nome": "starkist",
+        "quantidade": 2,
+        "receitaId": "Starkist",
+        "metodo": null
+      },
+      {
+        "bebidaId": "TequilaSunrise",
+        "nome": "tequila sunrise",
+        "quantidade": 1,
+        "receitaId": "TequilaSunrise",
+        "metodo": null
+      },
+      {
+        "bebidaId": "DoctorsDelight",
+        "nome": "the doctor's delight",
+        "quantidade": 1,
+        "receitaId": "DoctorsDelight",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "TripleCitrus",
+        "nome": "triple citrus",
+        "quantidade": 1,
+        "receitaId": "TripleCitrus",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "JuiceOrange",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/juice.yml",
+      "line": 198
+    }
+  },
+  {
+    "id": "JuiceLime",
+    "nome": "suco de limão",
+    "descricao": "O doce-azedo suco de limão.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#99bb43",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "suco",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "BeepskySmash",
+        "nome": "beepsky smash",
+        "quantidade": 1,
+        "receitaId": "BeepskySmash",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "BloodyMary",
+        "nome": "bloody mary",
+        "quantidade": 1,
+        "receitaId": "BloodyMary",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "Caipirinha",
+        "nome": "caipirinha",
+        "quantidade": 1,
+        "receitaId": "Caipirinha",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Cosmopolitan",
+        "nome": "cosmopolitan",
+        "quantidade": 1,
+        "receitaId": "Cosmopolitan",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Daiquiri",
+        "nome": "daiquiri",
+        "quantidade": 1,
+        "receitaId": "Daiquiri",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "Empress75",
+        "nome": "empress 75",
+        "quantidade": 1,
+        "receitaId": "Empress75",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "ErikaSurprise",
+        "nome": "erika suprise",
+        "quantidade": 1,
+        "receitaId": "ErikaSurprise",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "FourteenLoko",
+        "nome": "Fourteen Loko",
+        "quantidade": 1,
+        "receitaId": "FourteenLoko",
+        "metodo": null
+      },
+      {
+        "bebidaId": "GinFizz",
+        "nome": "gin fizz",
+        "quantidade": 1,
+        "receitaId": "GinFizz",
+        "metodo": null
+      },
+      {
+        "bebidaId": "JungleBird",
+        "nome": "jungle bird",
+        "quantidade": 1,
+        "receitaId": "JungleBird",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "KiraSpecial",
+        "nome": "kira special",
+        "quantidade": 1,
+        "receitaId": "KiraSpecial",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "Margarita",
+        "nome": "margarita",
+        "quantidade": 1,
+        "receitaId": "Margarita",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Mojito",
+        "nome": "mojito",
+        "quantidade": 1,
+        "receitaId": "Mojito",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "MoscowMule",
+        "nome": "moscow mule",
+        "quantidade": 1,
+        "receitaId": "MoscowMule",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "GargleBlaster",
+        "nome": "Pan-Galactic Gargle Blaster",
+        "quantidade": 1,
+        "receitaId": "GargleBlaster",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "PinaColada",
+        "nome": "Piña Colada",
+        "quantidade": 1,
+        "receitaId": "PinaColada",
+        "metodo": null
+      },
+      {
+        "bebidaId": "LemonLime",
+        "nome": "refri lima-limão",
+        "quantidade": 1,
+        "receitaId": "LemonLime",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "DoctorsDelight",
+        "nome": "the doctor's delight",
+        "quantidade": 1,
+        "receitaId": "DoctorsDelight",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "TripleCitrus",
+        "nome": "triple citrus",
+        "quantidade": 1,
+        "receitaId": "TripleCitrus",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "JuiceLime",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/juice.yml",
+      "line": 172
+    }
+  },
+  {
+    "id": "JuiceLemon",
+    "nome": "suco de limão siciliano",
+    "descricao": "Esse suco é MUITO azedo. Melhor beber uma limonada.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#fff690",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "suco",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "Andalusia",
+        "nome": "andalusia",
+        "quantidade": 1,
+        "receitaId": "Andalusia",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "BeesKnees",
+        "nome": "bee’s knees",
+        "quantidade": 1,
+        "receitaId": "BeesKnees",
+        "metodo": null
+      },
+      {
+        "bebidaId": "BlueHawaiian",
+        "nome": "Blue Hawaiian",
+        "quantidade": 1,
+        "receitaId": "BlueHawaiian",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "JackRose",
+        "nome": "Jack rose",
+        "quantidade": 1,
+        "receitaId": "JackRose",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Lemonade",
+        "nome": "limonada",
+        "quantidade": 1,
+        "receitaId": "Lemonade",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "TheMartinez",
+        "nome": "O Martinez",
+        "quantidade": 1,
+        "receitaId": "TheMartinez",
+        "metodo": null
+      },
+      {
+        "bebidaId": "LemonLime",
+        "nome": "refri lima-limão",
+        "quantidade": 1,
+        "receitaId": "LemonLime",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "TripleCitrus",
+        "nome": "triple citrus",
+        "quantidade": 1,
+        "receitaId": "TripleCitrus",
+        "metodo": null
+      },
+      {
+        "bebidaId": "WhiskeySour",
+        "nome": "whiskey sour",
+        "quantidade": 2,
+        "receitaId": "WhiskeySour",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "JuiceLemon",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/juice.yml",
+      "line": 148
+    }
+  },
+  {
+    "id": "JuiceApple",
+    "nome": "suco de maça",
+    "descricao": "Um pequeno pedaço do Eden.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#FDAD01",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "suco",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "JackRose",
+        "nome": "Jack rose",
+        "quantidade": 1,
+        "receitaId": "JackRose",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "JuiceApple",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/juice.yml",
+      "line": 69
+    }
+  },
+  {
+    "id": "JuiceWatermelon",
+    "nome": "suco de melancia",
+    "descricao": "O suco deliciosa de uma melancia.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#EF3520",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "suco",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "Booger",
+        "nome": "booger",
+        "quantidade": 1,
+        "receitaId": "Booger",
+        "metodo": null
+      },
+      {
+        "bebidaId": "WatermelonWakeup",
+        "nome": "watermelon wakeup",
+        "quantidade": 1,
+        "receitaId": "WatermelonWakeup",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "JuiceWatermelon",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/juice.yml",
+      "line": 258
+    }
+  },
+  {
+    "id": "JuiceTomato",
+    "nome": "suco de tomate",
+    "descricao": "Tomates transformados em suco. Que desperdício de tomates, ein?",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#731008",
+    "grupo": "NonAlcoholicDrinks",
+    "categoria": "suco",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "BloodyMary",
+        "nome": "bloody mary",
+        "quantidade": 3,
+        "receitaId": "BloodyMary",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "DoctorsDelight",
+        "nome": "the doctor's delight",
+        "quantidade": 1,
+        "receitaId": "DoctorsDelight",
+        "metodo": "Stir"
+      }
+    ],
+    "origem": {
+      "id": "JuiceTomato",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/juice.yml",
+      "line": 249
+    }
+  },
+  {
+    "id": "Tequila",
+    "nome": "tequila",
+    "descricao": "Uma spirit forte e suavemente saborizada, produzida por mexicanos.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#d7d1d155",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "BraveBull",
+        "nome": "brave bull",
+        "quantidade": 2,
+        "receitaId": "BraveBull",
+        "metodo": null
+      },
+      {
+        "bebidaId": "BudgetInsulsDrink",
+        "nome": "budget insuls",
+        "quantidade": 1,
+        "receitaId": "BudgetInsulsDrink",
+        "metodo": null
+      },
+      {
+        "bebidaId": "LongIslandIcedTea",
+        "nome": "long island iced tea",
+        "quantidade": 1,
+        "receitaId": "LongIslandIcedTea",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "Margarita",
+        "nome": "margarita",
+        "quantidade": 2,
+        "receitaId": "Margarita",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Moonshine",
+        "nome": "moonshine",
+        "quantidade": 1,
+        "receitaId": "Moonshine",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Patron",
+        "nome": "patron",
+        "quantidade": 10,
+        "receitaId": "Patron",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "TequilaSunrise",
+        "nome": "tequila sunrise",
+        "quantidade": 2,
+        "receitaId": "TequilaSunrise",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Tequila",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 491
+    }
+  },
+  {
+    "id": "TequilaSunrise",
+    "nome": "tequila sunrise",
+    "descricao": "Tequila e suco de laranja. Tipo um Screwdriver, só mexicano.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#FFE48C",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "Vampiro",
+        "nome": "vampiro",
+        "quantidade": 3,
+        "receitaId": "Vampiro",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "TequilaSunrise",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 1921
+    }
+  },
+  {
+    "id": "Vermouth",
+    "nome": "vermute",
+    "descricao": "Aromatizado, fortificado vinho branco saborizado com vários botânicos.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#91FF91",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "Barefoot",
+        "nome": "barefoot",
+        "quantidade": 1,
+        "receitaId": "Barefoot",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Bronx",
+        "nome": "Bronx",
+        "quantidade": 1,
+        "receitaId": "Bronx",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Manhattan",
+        "nome": "manhattan",
+        "quantidade": 1,
+        "receitaId": "Manhattan",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Martini",
+        "nome": "martini clássico",
+        "quantidade": 1,
+        "receitaId": "Martini",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "DirtyMartini",
+        "nome": "martini sujo",
+        "quantidade": 1,
+        "receitaId": "DirtyMartini",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "ToxinsSpecial",
+        "nome": "toxins special",
+        "quantidade": 1,
+        "receitaId": "ToxinsSpecial",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "VodkaMartini",
+        "nome": "vodka martini",
+        "quantidade": 1,
+        "receitaId": "VodkaMartini",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "Vermouth",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 514
+    }
+  },
+  {
+    "id": "Wine",
+    "nome": "vinho",
+    "descricao": "Um clássico e elegante, feito de suco de uva destilado.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#7E4043",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "AcidSpit",
+        "nome": "acidspit",
+        "quantidade": 2,
+        "receitaId": "AcidSpit",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Amasec",
+        "nome": "amasec",
+        "quantidade": 2,
+        "receitaId": "Amasec",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Kalimotxo",
+        "nome": "kalimotxo",
+        "quantidade": 1,
+        "receitaId": "Kalimotxo",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Wine",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 579
+    }
+  },
+  {
+    "id": "ManlyDorf",
+    "nome": "viril anão",
+    "descricao": "Cerveja e Ale, juntos numa mistura deliciosa. Apenas para anões robustos.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#664300",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "BacchusBlessing",
+        "nome": "bacchus's blessing",
+        "quantidade": 1,
+        "receitaId": "BacchusBlessing",
+        "metodo": null
+      },
+      {
+        "bebidaId": "XenoBasher",
+        "nome": "Xeno Basher",
+        "quantidade": 2,
+        "receitaId": "XenoBasher",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "ManlyDorf",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 1507
+    }
+  },
+  {
+    "id": "Vodka",
+    "nome": "vodka",
+    "descricao": "Bebida alcólica destilada que origina da Polônia e Rússia.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#d1d1d155",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "AlliesCocktail",
+        "nome": "allies cocktail",
+        "quantidade": 1,
+        "receitaId": "AlliesCocktail",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Amasec",
+        "nome": "amasec",
+        "quantidade": 2,
+        "receitaId": "Amasec",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Amasec",
+        "nome": "amasec",
+        "quantidade": 2,
+        "receitaId": "Amasec2",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Antifreeze",
+        "nome": "anticongelante",
+        "quantidade": 2,
+        "receitaId": "Antifreeze",
+        "metodo": null
+      },
+      {
+        "bebidaId": "BlackRussian",
+        "nome": "black russian",
+        "quantidade": 2,
+        "receitaId": "BlackRussian",
+        "metodo": null
+      },
+      {
+        "bebidaId": "BloodyMary",
+        "nome": "bloody mary",
+        "quantidade": 2,
+        "receitaId": "BloodyMary",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "Cosmopolitan",
+        "nome": "cosmopolitan",
+        "quantidade": 1,
+        "receitaId": "Cosmopolitan",
+        "metodo": null
+      },
+      {
+        "bebidaId": "FourteenLoko",
+        "nome": "Fourteen Loko",
+        "quantidade": 1,
+        "receitaId": "FourteenLoko",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Gildlager",
+        "nome": "Goldschlager",
+        "quantidade": 10,
+        "receitaId": "Gildlager",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "LongIslandIcedTea",
+        "nome": "long island iced tea",
+        "quantidade": 1,
+        "receitaId": "LongIslandIcedTea",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "Moonshine",
+        "nome": "moonshine",
+        "quantidade": 1,
+        "receitaId": "Moonshine",
+        "metodo": null
+      },
+      {
+        "bebidaId": "MoscowMule",
+        "nome": "moscow mule",
+        "quantidade": 4,
+        "receitaId": "MoscowMule",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "TheMartinez",
+        "nome": "O Martinez",
+        "quantidade": 2,
+        "receitaId": "TheMartinez",
+        "metodo": null
+      },
+      {
+        "bebidaId": "GargleBlaster",
+        "nome": "Pan-Galactic Gargle Blaster",
+        "quantidade": 1,
+        "receitaId": "GargleBlaster",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Sbiten",
+        "nome": "sbiten",
+        "quantidade": 1,
+        "receitaId": "Sbiten",
+        "metodo": null
+      },
+      {
+        "bebidaId": "ScrewdriverCocktail",
+        "nome": "screwdriver",
+        "quantidade": 1,
+        "receitaId": "ScrewdriverCocktail",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "VodkaTonic",
+        "nome": "vodka e tônica",
+        "quantidade": 1,
+        "receitaId": "VodkaTonic",
+        "metodo": null
+      },
+      {
+        "bebidaId": "VodkaMartini",
+        "nome": "vodka martini",
+        "quantidade": 2,
+        "receitaId": "VodkaMartini",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "VodkaRedBool",
+        "nome": "vodka red bool",
+        "quantidade": 1,
+        "receitaId": "VodkaRedBool",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Vodka",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 529
+    }
+  },
+  {
+    "id": "VodkaRedBool",
+    "nome": "vodka red bool",
+    "descricao": "Because heart failure and liver failure go hand in hand.",
+    "traducao": "en",
+    "nomeTraducao": "en",
+    "descricaoTraducao": "en",
+    "cor": "#c4c27655",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "BudgetInsulsDrink",
+        "nome": "budget insuls",
+        "quantidade": 3,
+        "receitaId": "BudgetInsulsDrink",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "VodkaRedBool",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 2152
+    }
+  },
+  {
+    "id": "Whiskey",
+    "nome": "whisky",
+    "descricao": "Uma bebida alcólica destilada feita de grãos esmagados fermentados.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#ee7732",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "Andalusia",
+        "nome": "andalusia",
+        "quantidade": 1,
+        "receitaId": "Andalusia",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "BeepskySmash",
+        "nome": "beepsky smash",
+        "quantidade": 1,
+        "receitaId": "BeepskySmash",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "IrishCream",
+        "nome": "creme irlandês",
+        "quantidade": 2,
+        "receitaId": "IrishCream",
+        "metodo": null
+      },
+      {
+        "bebidaId": "ErikaSurprise",
+        "nome": "erika suprise",
+        "quantidade": 1,
+        "receitaId": "ErikaSurprise",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "GoldenCat",
+        "nome": "golden cat",
+        "quantidade": 1,
+        "receitaId": "GoldenCat",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "Manhattan",
+        "nome": "manhattan",
+        "quantidade": 2,
+        "receitaId": "Manhattan",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "ManhattanProject",
+        "nome": "manhattan project",
+        "quantidade": 10,
+        "receitaId": "ManhattanProject",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Moonshine",
+        "nome": "moonshine",
+        "quantidade": 1,
+        "receitaId": "Moonshine",
+        "metodo": null
+      },
+      {
+        "bebidaId": "GargleBlaster",
+        "nome": "Pan-Galactic Gargle Blaster",
+        "quantidade": 1,
+        "receitaId": "GargleBlaster",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "WatermelonWakeup",
+        "nome": "watermelon wakeup",
+        "quantidade": 1,
+        "receitaId": "WatermelonWakeup",
+        "metodo": null
+      },
+      {
+        "bebidaId": "WhiskeySour",
+        "nome": "whiskey sour",
+        "quantidade": 2,
+        "receitaId": "WhiskeySour",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "WhiskeyCola",
+        "nome": "whisky cola",
+        "quantidade": 1,
+        "receitaId": "WhiskeyCola",
+        "metodo": null
+      },
+      {
+        "bebidaId": "WhiskeySoda",
+        "nome": "whisky soda",
+        "quantidade": 1,
+        "receitaId": "WhiskeySoda",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Whiskey",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 554
+    }
+  },
+  {
+    "id": "WhiskeyCola",
+    "nome": "whisky cola",
+    "descricao": "Whiskey, misturado com refri de cola. Surpreendentemente refrescante.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#3E1B00",
+    "grupo": "AlcoholicDrinks",
+    "categoria": "alcoolica",
+    "bebida": true,
+    "usadoEm": [
+      {
+        "bebidaId": "SyndicateBomb",
+        "nome": "bomba do Sindicato",
+        "quantidade": 1,
+        "receitaId": "SyndicateBomb",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "WhiskeyCola",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/alcohol.yml",
+      "line": 2063
+    }
+  },
+  {
+    "id": "BuzzochloricBees",
+    "nome": "abelhas buzoclóricas",
+    "descricao": "Abelhas líquidas. Oh Deus, são ABELHAS LÍQUIDAS NÃO-",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#FFD35D",
+    "grupo": "Toxins",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "BeesKnees",
+        "nome": "bee’s knees",
+        "quantidade": 2,
+        "receitaId": "BeesKnees",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "BuzzochloricBees",
+      "file": "Resources/Prototypes/Reagents/fun.yml",
+      "line": 76
+    }
+  },
+  {
+    "id": "SulfuricAcid",
+    "nome": "ácido súlfurico",
+    "descricao": "Um produto químico corrosivo. Mantenha longe do seu rosto.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#BF8C00",
+    "grupo": "Toxins",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "AcidSpit",
+        "nome": "acidspit",
+        "quantidade": 1,
+        "receitaId": "AcidSpit",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "SulfuricAcid",
+      "file": "Resources/Prototypes/Reagents/toxins.yml",
+      "line": 312
+    }
+  },
+  {
+    "id": "Sugar",
+    "nome": "açúcar",
+    "descricao": "Saboroso açucar do espaço!",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "white",
+    "grupo": "Foods",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "BananaHonk",
+        "nome": "banana honk",
+        "quantidade": 1,
+        "receitaId": "BananaHonk",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Caipirinha",
+        "nome": "caipirinha",
+        "quantidade": 1,
+        "receitaId": "Caipirinha",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "CreamOfCoconut",
+        "nome": "cream of coconut",
+        "quantidade": 1,
+        "receitaId": "CreamOfCoconut",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Daiquiri",
+        "nome": "daiquiri",
+        "quantidade": 1,
+        "receitaId": "Daiquiri",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "Grog",
+        "nome": "grog",
+        "quantidade": 1,
+        "receitaId": "Grog",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Lemonade",
+        "nome": "limonada",
+        "quantidade": 1,
+        "receitaId": "Lemonade",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "Mead",
+        "nome": "mead",
+        "quantidade": 1,
+        "receitaId": "Mead",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Mojito",
+        "nome": "mojito",
+        "quantidade": 1,
+        "receitaId": "Mojito",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Cola",
+        "nome": "refri de cola",
+        "quantidade": 1,
+        "receitaId": "Cola",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Rubberneck",
+        "nome": "rubberneck",
+        "quantidade": 1,
+        "receitaId": "Rubberneck",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Silencer",
+        "nome": "silenciador",
+        "quantidade": 1,
+        "receitaId": "Silencer",
+        "metodo": null
+      },
+      {
+        "bebidaId": "IceCream",
+        "nome": "sorvete",
+        "quantidade": 1,
+        "receitaId": "IceCream",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Tortuga",
+        "nome": "Tortuga",
+        "quantidade": 1,
+        "receitaId": "Tortuga",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "WhiskeySour",
+        "nome": "whiskey sour",
+        "quantidade": 1,
+        "receitaId": "WhiskeySour",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "Sugar",
+      "file": "Resources/Prototypes/Reagents/Consumable/Food/food.yml",
+      "line": 102
+    }
+  },
+  {
+    "id": "CocoaPowder",
+    "nome": "cacau em pó",
+    "descricao": "Das melhores variantes de grãos de cacau",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#800000",
+    "grupo": "Foods",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "HotCocoa",
+        "nome": "Cacau Quente",
+        "quantidade": 1,
+        "receitaId": "HotCocoa",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "CocoaPowder",
+      "file": "Resources/Prototypes/Reagents/Consumable/Food/ingredients.yml",
+      "line": 271
+    }
+  },
+  {
+    "id": "CoffeeGrounds",
+    "nome": "Coffee Grounds",
+    "descricao": "",
+    "traducao": "id",
+    "nomeTraducao": "id",
+    "descricaoTraducao": "id",
+    "cor": "#b08d57",
+    "grupo": "Unknown",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "Coffee",
+        "nome": "café",
+        "quantidade": 1,
+        "receitaId": "Coffee",
+        "metodo": "Stir"
+      }
+    ],
+    "origem": null
+  },
+  {
+    "id": "WeldingFuel",
+    "nome": "combustível de solda",
+    "descricao": "Usado por soldadores para soldar.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#a76b1c",
+    "grupo": "Pyrotechnic",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "CogChamp",
+        "nome": "cogchamp",
+        "quantidade": 1,
+        "receitaId": "CogChamp",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Hooch",
+        "nome": "hooch",
+        "quantidade": 1,
+        "receitaId": "Hooch",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "WeldingFuel",
+      "file": "Resources/Prototypes/Reagents/pyrotechnic.yml",
+      "line": 222
+    }
+  },
+  {
+    "id": "Cream",
+    "nome": "creme",
+    "descricao": "A gordurosa parte líquida do leite.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#DFD7AF",
+    "grupo": "Unknown",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "Antifreeze",
+        "nome": "anticongelante",
+        "quantidade": 1,
+        "receitaId": "Antifreeze",
+        "metodo": null
+      },
+      {
+        "bebidaId": "BananaHonk",
+        "nome": "banana honk",
+        "quantidade": 1,
+        "receitaId": "BananaHonk",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Barefoot",
+        "nome": "barefoot",
+        "quantidade": 1,
+        "receitaId": "Barefoot",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Booger",
+        "nome": "booger",
+        "quantidade": 2,
+        "receitaId": "Booger",
+        "metodo": null
+      },
+      {
+        "bebidaId": "IrishCream",
+        "nome": "creme irlandês",
+        "quantidade": 1,
+        "receitaId": "IrishCream",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Silencer",
+        "nome": "silenciador",
+        "quantidade": 1,
+        "receitaId": "Silencer",
+        "metodo": null
+      },
+      {
+        "bebidaId": "IceCream",
+        "nome": "sorvete",
+        "quantidade": 1,
+        "receitaId": "IceCream",
+        "metodo": null
+      },
+      {
+        "bebidaId": "DoctorsDelight",
+        "nome": "the doctor's delight",
+        "quantidade": 2,
+        "receitaId": "DoctorsDelight",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "WhiteRussian",
+        "nome": "white russian",
+        "quantidade": 1,
+        "receitaId": "WhiteRussian",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Cream",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/drinks.yml",
+      "line": 138
+    }
+  },
+  {
+    "id": "Desoxyephedrine",
+    "nome": "desoxiefedrina",
+    "descricao": "Uma efedrina mais eficaz, com desvantagens mais ativas. Requer menos doses para curar a narcolepsia.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#FAFAFA",
+    "grupo": "Narcotics",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "GinAndSonic",
+        "nome": "gin and sonic",
+        "quantidade": 1,
+        "receitaId": "GinAndSonic",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "Desoxyephedrine",
+      "file": "Resources/Prototypes/Reagents/narcotics.yml",
+      "line": 54
+    }
+  },
+  {
+    "id": "CarbonDioxide",
+    "nome": "dióxido de carbono",
+    "descricao": "Você não tem ideia do que é isso.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#66ff33",
+    "grupo": "Unknown",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "SodaWater",
+        "nome": "água com gás",
+        "quantidade": 1,
+        "receitaId": "SodaWater",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "CarbonDioxide",
+      "file": "Resources/Prototypes/Reagents/gases.yml",
+      "line": 396
+    }
+  },
+  {
+    "id": "Enzyme",
+    "nome": "enzima universal",
+    "descricao": "Usado para cozinhar uma variedade de pratos.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#009900",
+    "grupo": "Foods",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "Hooch",
+        "nome": "hooch",
+        "quantidade": 1,
+        "receitaId": "Hooch",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Mead",
+        "nome": "mead",
+        "quantidade": 1,
+        "receitaId": "Mead",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Enzyme",
+      "file": "Resources/Prototypes/Reagents/Consumable/Food/ingredients.yml",
+      "line": 91
+    }
+  },
+  {
+    "id": "Stimulants",
+    "nome": "estimulantes",
+    "descricao": "Um coquetel químico desenvolvido pela Donk Co. que permite que os agentes se recuperem de atordoamentos mais rápido, se movam mais rapidamente e concedem uma pequena cura enquanto perto de condições críticas. Devido à natureza complexa do produto químico, é muito mais difícil para o corpo purgar naturalmente.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#9A040E",
+    "grupo": "Narcotics",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "BeastBlood",
+        "nome": "beast's blood",
+        "quantidade": 1,
+        "receitaId": "BeastBlood",
+        "metodo": null
+      },
+      {
+        "bebidaId": "BeastBlood",
+        "nome": "beast's blood",
+        "quantidade": 1,
+        "receitaId": "BeastBloodInsect",
+        "metodo": null
+      },
+      {
+        "bebidaId": "BeastBlood",
+        "nome": "beast's blood",
+        "quantidade": 1,
+        "receitaId": "BeastBloodCopper",
+        "metodo": null
+      },
+      {
+        "bebidaId": "BeastBlood",
+        "nome": "beast's blood",
+        "quantidade": 1,
+        "receitaId": "BeastBloodVox",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Stimulants",
+      "file": "Resources/Prototypes/Reagents/narcotics.yml",
+      "line": 215
+    }
+  },
+  {
+    "id": "Iron",
+    "nome": "ferro",
+    "descricao": "Um metal cinza-prateado que forma óxidos de ferro (ferrugem) em contato com o ar. Comumente ligado com outros elementos para criar ligas como o aço.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#434b4d",
+    "grupo": "Elements",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "Amasec",
+        "nome": "amasec",
+        "quantidade": 1,
+        "receitaId": "Amasec",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "BeepskySmash",
+        "nome": "beepsky smash",
+        "quantidade": 1,
+        "receitaId": "BeepskySmash",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "Iron",
+      "file": "Resources/Prototypes/Reagents/elements.yml",
+      "line": 203
+    }
+  },
+  {
+    "id": "FrostOil",
+    "nome": "Frost Oil",
+    "descricao": "Frost Oil is the ingredient found in chilly peppers, a rare pepper mutation.",
+    "traducao": "en",
+    "nomeTraducao": "en",
+    "descricaoTraducao": "en",
+    "cor": "skyblue",
+    "grupo": "Foods",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "IcedBeer",
+        "nome": "cerveja geladassa",
+        "quantidade": 1,
+        "receitaId": "IcedBeerAlt",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "FrostOil",
+      "file": "Resources/Prototypes/Reagents/Consumable/Food/ingredients.yml",
+      "line": 332
+    }
+  },
+  {
+    "id": "Ice",
+    "nome": "gelo",
+    "descricao": "Água em seu estado sólido.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#bed8e6",
+    "grupo": "Unknown",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "Antifreeze",
+        "nome": "anticongelante",
+        "quantidade": 1,
+        "receitaId": "Antifreeze",
+        "metodo": null
+      },
+      {
+        "bebidaId": "BahamaMama",
+        "nome": "bahama mama",
+        "quantidade": 1,
+        "receitaId": "BahamaMama",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "IcedCoffee",
+        "nome": "café gelado",
+        "quantidade": 1,
+        "receitaId": "IcedCoffee",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Caipirinha",
+        "nome": "caipirinha",
+        "quantidade": 1,
+        "receitaId": "Caipirinha",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "IcedBeer",
+        "nome": "cerveja geladassa",
+        "quantidade": 1,
+        "receitaId": "IcedBeer",
+        "metodo": null
+      },
+      {
+        "bebidaId": "IcedTea",
+        "nome": "chá gelado",
+        "quantidade": 1,
+        "receitaId": "IcedTea",
+        "metodo": null
+      },
+      {
+        "bebidaId": "IcedGreenTea",
+        "nome": "chá verde gelado",
+        "quantidade": 1,
+        "receitaId": "IcedGreenTea",
+        "metodo": null
+      },
+      {
+        "bebidaId": "ErikaSurprise",
+        "nome": "erika suprise",
+        "quantidade": 1,
+        "receitaId": "ErikaSurprise",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "TheMartinez",
+        "nome": "O Martinez",
+        "quantidade": 1,
+        "receitaId": "TheMartinez",
+        "metodo": null
+      },
+      {
+        "bebidaId": "IceCream",
+        "nome": "sorvete",
+        "quantidade": 1,
+        "receitaId": "IceCream",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Ice",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/drinks.yml",
+      "line": 606
+    }
+  },
+  {
+    "id": "Ipecac",
+    "nome": "ipecac",
+    "descricao": "Um emético de ação rápida. É útil para parar venenos não metabolizados ou sessões de vômito em massa.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#422912",
+    "grupo": "Medicine",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "Cola",
+        "nome": "refri de cola",
+        "quantidade": 1,
+        "receitaId": "Cola",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Ipecac",
+      "file": "Resources/Prototypes/Reagents/medicine.yml",
+      "line": 641
+    }
+  },
+  {
+    "id": "Milk",
+    "nome": "leite",
+    "descricao": "Um líquido branco opaco produzido pelas glândulas mamárias de mamíferos.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#DFDFDF",
+    "grupo": "Unknown",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "CafeLatte",
+        "nome": "cafe latte",
+        "quantidade": 1,
+        "receitaId": "CafeLatte",
+        "metodo": null
+      },
+      {
+        "bebidaId": "CreamOfCoconut",
+        "nome": "cream of coconut",
+        "quantidade": 1,
+        "receitaId": "CreamOfCoconut",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Eggnog",
+        "nome": "eggnog",
+        "quantidade": 4,
+        "receitaId": "Eggnog",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "WhiteGilgamesh",
+        "nome": "gilgamesh branco",
+        "quantidade": 1,
+        "receitaId": "WhiteGilgamesh",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Pilk",
+        "nome": "pilk",
+        "quantidade": 1,
+        "receitaId": "Pilk",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Milk",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/drinks.yml",
+      "line": 343
+    }
+  },
+  {
+    "id": "MilkSoy",
+    "nome": "leite de soja",
+    "descricao": "Favorito dos consumidores.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#D2C29D",
+    "grupo": "Unknown",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "SoyLatte",
+        "nome": "latte de soja",
+        "quantidade": 1,
+        "receitaId": "SoyLatte",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "MilkSoy",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/drinks.yml",
+      "line": 395
+    }
+  },
+  {
+    "id": "Mayo",
+    "nome": "maionese",
+    "descricao": "molho cremoso, feito de óleo, ovo e alguns (comestíveis) ácido.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#f9f5e5",
+    "grupo": "Foods",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "Mayojito",
+        "nome": "mayojito",
+        "quantidade": 1,
+        "receitaId": "Mayojito",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Mayo",
+      "file": "Resources/Prototypes/Reagents/Consumable/Food/condiments.yml",
+      "line": 118
+    }
+  },
+  {
+    "id": "Hotsauce",
+    "nome": "molho de pimenta",
+    "descricao": "Queima tão bem.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "red",
+    "grupo": "Foods",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "Vampiro",
+        "nome": "vampiro",
+        "quantidade": 1,
+        "receitaId": "Vampiro",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "Hotsauce",
+      "file": "Resources/Prototypes/Reagents/Consumable/Food/condiments.yml",
+      "line": 78
+    }
+  },
+  {
+    "id": "Morphine",
+    "nome": "morfina",
+    "descricao": "Um potente analgésico que permite ao paciente passar por uma cirurgia sem sentir dor, mesmo estando acordado. Causa sonolência. A overdose pode causar dificuldade para respirar.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#ffde7448",
+    "grupo": "Narcotics",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "Neurotoxin",
+        "nome": "neurotoxina",
+        "quantidade": 1,
+        "receitaId": "Neurotoxin",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Morphine",
+      "file": "Resources/Prototypes/_EinsteinEngines/Reagents/narcotics.yml",
+      "line": 6
+    }
+  },
+  {
+    "id": "Nothing",
+    "nome": "nada",
+    "descricao": "Absolutamente completamente nada.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#b08d57",
+    "grupo": "Unknown",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "DriestMartini",
+        "nome": "driest martini",
+        "quantidade": 1,
+        "receitaId": "DriestMartini",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Mimeosa",
+        "nome": "mimeosa",
+        "quantidade": 1,
+        "receitaId": "Mimeosa",
+        "metodo": null
+      },
+      {
+        "bebidaId": "Silencer",
+        "nome": "silenciador",
+        "quantidade": 1,
+        "receitaId": "Silencer",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Nothing",
+      "file": "Resources/Prototypes/Reagents/Consumable/Drink/drinks.yml",
+      "line": 418
+    }
+  },
+  {
+    "id": "Napalm",
+    "nome": "napalm",
+    "descricao": "É só um pouco inflamável.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#FA00AF",
+    "grupo": "Pyrotechnic",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "PineappleBlast",
+        "nome": "pineapple blast",
+        "quantidade": 1,
+        "receitaId": "PineappleBlast",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Napalm",
+      "file": "Resources/Prototypes/Reagents/pyrotechnic.yml",
+      "line": 78
+    }
+  },
+  {
+    "id": "CapsaicinOil",
+    "nome": "Óleo de Capsaicina",
+    "descricao": "Capsaicin Oil é o ingrediente encontrado nas pimentas chilli.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#FF0000",
+    "grupo": "Foods",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "Sbiten",
+        "nome": "sbiten",
+        "quantidade": 1,
+        "receitaId": "Sbiten",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "CapsaicinOil",
+      "file": "Resources/Prototypes/Reagents/Consumable/Food/ingredients.yml",
+      "line": 237
+    }
+  },
+  {
+    "id": "Gold",
+    "nome": "ouro",
+    "descricao": "O ouro é um metal denso, macio, brilhante e o metal mais maleável e dúctil conhecido.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#F7C430",
+    "grupo": "Elements",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "GoldenCat",
+        "nome": "golden cat",
+        "quantidade": 2,
+        "receitaId": "GoldenCat",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "Gildlager",
+        "nome": "Goldschlager",
+        "quantidade": 1,
+        "receitaId": "Gildlager",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "Gold",
+      "file": "Resources/Prototypes/Reagents/elements.yml",
+      "line": 169
+    }
+  },
+  {
+    "id": "Egg",
+    "nome": "ovo cru",
+    "descricao": "Usado para assar.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "white",
+    "grupo": "Foods",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "Eggnog",
+        "nome": "eggnog",
+        "quantidade": 1,
+        "receitaId": "Eggnog",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "WhiskeySour",
+        "nome": "whiskey sour",
+        "quantidade": 1,
+        "receitaId": "WhiskeySour",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "Egg",
+      "file": "Resources/Prototypes/Reagents/Consumable/Food/ingredients.yml",
+      "line": 100
+    }
+  },
+  {
+    "id": "Oxygen",
+    "nome": "oxigênio",
+    "descricao": "Um gás oxidante e incolor.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#c4f5ff",
+    "grupo": "Unknown",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "Cola",
+        "nome": "refri de cola",
+        "quantidade": 1,
+        "receitaId": "Cola",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Oxygen",
+      "file": "Resources/Prototypes/Reagents/gases.yml",
+      "line": 45
+    }
+  },
+  {
+    "id": "Plasma",
+    "nome": "plasma",
+    "descricao": "Um estranho pó espacial. Você não deveria comer isto, mas sabemos que você vai.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#7e009e",
+    "grupo": "Unknown",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "ToxinsSpecial",
+        "nome": "toxins special",
+        "quantidade": 2,
+        "receitaId": "ToxinsSpecial",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "Plasma",
+      "file": "Resources/Prototypes/Reagents/gases.yml",
+      "line": 211
+    }
+  },
+  {
+    "id": "Silver",
+    "nome": "prata",
+    "descricao": "Um macio, branco e lustroso metal de transição, tem a maior conductibilidade elétrica de qualquer elemento e a maior condutividade térmica de qualquer metal.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#d0d0d0",
+    "grupo": "Elements",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "Patron",
+        "nome": "patron",
+        "quantidade": 1,
+        "receitaId": "Patron",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "Silver",
+      "file": "Resources/Prototypes/Reagents/elements.yml",
+      "line": 360
+    }
+  },
+  {
+    "id": "TableSalt",
+    "nome": "sal de cozinha",
+    "descricao": "Comumente conhecido como apenas sal, o Cloreto de Sódio é frequentemente usado para temperar a comida.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#cfd1d0",
+    "grupo": "Foods",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "DirtyMartini",
+        "nome": "martini sujo",
+        "quantidade": 1,
+        "receitaId": "DirtyMartini",
+        "metodo": "Shake"
+      },
+      {
+        "bebidaId": "Posca",
+        "nome": "posca",
+        "quantidade": 1,
+        "receitaId": "Posca",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "TableSalt",
+      "file": "Resources/Prototypes/Reagents/Consumable/Food/condiments.yml",
+      "line": 165
+    }
+  },
+  {
+    "id": "Blood",
+    "nome": "sangue",
+    "descricao": "Espero que seja ketchup.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#800000",
+    "grupo": "Biological",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "BeastBlood",
+        "nome": "beast's blood",
+        "quantidade": 1,
+        "receitaId": "BeastBlood",
+        "metodo": null
+      },
+      {
+        "bebidaId": "DemonsBlood",
+        "nome": "demons blood",
+        "quantidade": 1,
+        "receitaId": "DemonsBlood",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "DevilsKiss",
+        "nome": "devils kiss",
+        "quantidade": 1,
+        "receitaId": "DevilsKiss",
+        "metodo": "Stir"
+      },
+      {
+        "bebidaId": "RedMead",
+        "nome": "red mead",
+        "quantidade": 1,
+        "receitaId": "RedMead",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Blood",
+      "file": "Resources/Prototypes/Reagents/biological.yml",
+      "line": 94
+    }
+  },
+  {
+    "id": "AmmoniaBlood",
+    "nome": "sangue anaeróbico",
+    "descricao": "Nada mais em toda a galáxia tem um cheiro tão terrível.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#7a8bf2",
+    "grupo": "Biological",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "BeastBlood",
+        "nome": "beast's blood",
+        "quantidade": 1,
+        "receitaId": "BeastBloodVox",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "AmmoniaBlood",
+      "file": "Resources/Prototypes/Reagents/biological.yml",
+      "line": 258
+    }
+  },
+  {
+    "id": "CopperBlood",
+    "nome": "sangue azul",
+    "descricao": "Contém cobre em oposição ao ferro, o que lhe confere uma cor azul distinta.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#162581",
+    "grupo": "Biological",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "BeastBlood",
+        "nome": "beast's blood",
+        "quantidade": 1,
+        "receitaId": "BeastBloodCopper",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "CopperBlood",
+      "file": "Resources/Prototypes/Reagents/biological.yml",
+      "line": 235
+    }
+  },
+  {
+    "id": "InsectBlood",
+    "nome": "sangue de inseto",
+    "descricao": "Ok, isso é realmente nojento. Quase parece... vivo?",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#808A51",
+    "grupo": "Biological",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "BeastBlood",
+        "nome": "beast's blood",
+        "quantidade": 1,
+        "receitaId": "BeastBloodInsect",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "InsectBlood",
+      "file": "Resources/Prototypes/Reagents/biological.yml",
+      "line": 142
+    }
+  },
+  {
+    "id": "ZombieBlood",
+    "nome": "sangue de zumbi",
+    "descricao": "Não aconselharia comer. Pode ser usado para criar uma inoculação contra a infecção.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#2b0700",
+    "grupo": "Biological",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "ZombieCocktail",
+        "nome": "Zombie",
+        "quantidade": 1,
+        "receitaId": "ZombieCocktail",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "ZombieBlood",
+      "file": "Resources/Prototypes/Reagents/biological.yml",
+      "line": 281
+    }
+  },
+  {
+    "id": "BlackBlood",
+    "nome": "sangue negro",
+    "descricao": "Um teor de ferro ridiculamente alto torna esse sangue alienígena quase totalmente negro.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#1c1624",
+    "grupo": "Biological",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "Amasec",
+        "nome": "amasec",
+        "quantidade": 3,
+        "receitaId": "Amasec2",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "BlackBlood",
+      "file": "Resources/Prototypes/_EinsteinEngines/Reagents/biological.yml",
+      "line": 1
+    }
+  },
+  {
+    "id": "TeaPowder",
+    "nome": "tea powder",
+    "descricao": "Finely ground tea leaves, used for making tea.",
+    "traducao": "en",
+    "nomeTraducao": "en",
+    "descricaoTraducao": "en",
+    "cor": "#7F8400",
+    "grupo": "Foods",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "Tea",
+        "nome": "chá",
+        "quantidade": 1,
+        "receitaId": "Tea",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "TeaPowder",
+      "file": "Resources/Prototypes/Reagents/Consumable/Food/ingredients.yml",
+      "line": 315
+    }
+  },
+  {
+    "id": "Thermite",
+    "nome": "termita",
+    "descricao": "Uma mistura que fica extremamente quente quando ateiada, que pode queimar através das paredes quando aplicado e ateiado. Vai lentamente infligir dano de queimaduras para qualquer um burro o suficiente de ingerir isto, mas não pode ser ateiado dentro de certa pessoa burra.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#757245",
+    "grupo": "Pyrotechnic",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "TorpedoJuice",
+        "nome": "torpedo juice",
+        "quantidade": 1,
+        "receitaId": "TorpedoJuice",
+        "metodo": "Shake"
+      }
+    ],
+    "origem": {
+      "id": "Thermite",
+      "file": "Resources/Prototypes/Reagents/pyrotechnic.yml",
+      "line": 45
+    }
+  },
+  {
+    "id": "THC",
+    "nome": "THC",
+    "descricao": "O principal composto psicoativo da cannabis.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#808080",
+    "grupo": "Narcotics",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "HippiesDelight",
+        "nome": "hippies delight",
+        "quantidade": 1,
+        "receitaId": "HippiesDelight",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "THC",
+      "file": "Resources/Prototypes/Reagents/narcotics.yml",
+      "line": 316
+    }
+  },
+  {
+    "id": "Tricordrazine",
+    "nome": "tricordrazina",
+    "descricao": "Um estimulante de amplo espectro, originalmente derivado da cordrazina. Trata pequenos danos de todos os tipos básicos de saúde, desde que o usuário não seja gravemente ferido. Melhor usado como um aditivo para outros produtos químicos.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#00e5ff",
+    "grupo": "Medicine",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "DoctorsDelight",
+        "nome": "the doctor's delight",
+        "quantidade": 1,
+        "receitaId": "DoctorsDelight",
+        "metodo": "Stir"
+      }
+    ],
+    "origem": {
+      "id": "Tricordrazine",
+      "file": "Resources/Prototypes/Reagents/medicine.yml",
+      "line": 1073
+    }
+  },
+  {
+    "id": "Uranium",
+    "nome": "urânio",
+    "descricao": "Um cinza e metálico elemento químico na série dos actinídeos, fracamente radioativo.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "#8fa191",
+    "grupo": "Elements",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "AtomicBomb",
+        "nome": "bomba atômica",
+        "quantidade": 1,
+        "receitaId": "AtomicBomb",
+        "metodo": null
+      },
+      {
+        "bebidaId": "ManhattanProject",
+        "nome": "manhattan project",
+        "quantidade": 1,
+        "receitaId": "ManhattanProject",
+        "metodo": null
+      },
+      {
+        "bebidaId": "NuclearCola",
+        "nome": "refri de cola nuclear",
+        "quantidade": 1,
+        "receitaId": "NuclearCola",
+        "metodo": null
+      },
+      {
+        "bebidaId": "ThreeMileIsland",
+        "nome": "three mile island iced tea",
+        "quantidade": 1,
+        "receitaId": "ThreeMileIsland",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Uranium",
+      "file": "Resources/Prototypes/Reagents/elements.yml",
+      "line": 400
+    }
+  },
+  {
+    "id": "Vinegar",
+    "nome": "vinagre",
+    "descricao": "Usado para temperar comida.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "cor": "tan",
+    "grupo": "Foods",
+    "categoria": "insumo",
+    "bebida": false,
+    "usadoEm": [
+      {
+        "bebidaId": "Posca",
+        "nome": "posca",
+        "quantidade": 1,
+        "receitaId": "Posca",
+        "metodo": null
+      }
+    ],
+    "origem": {
+      "id": "Vinegar",
+      "file": "Resources/Prototypes/Reagents/Consumable/Food/ingredients.yml",
+      "line": 161
+    }
+  }
+]

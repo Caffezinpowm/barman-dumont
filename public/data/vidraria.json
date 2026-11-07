@@ -1,0 +1,218 @@
+[
+  {
+    "id": "DrinkShakerBluespace",
+    "nome": "bluespace shaker",
+    "descricao": "Mass-Mixing made easy!",
+    "traducao": "en",
+    "nomeTraducao": "en",
+    "descricaoTraducao": "en",
+    "tipo": "ferramenta",
+    "capacidade": 1000,
+    "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+    "cabeNaDispensa": true,
+    "sprite": {
+      "rsi": "_Goobstation/Objects/Consumable/Drinks/shaker_bluespace.rsi",
+      "estado": "icon",
+      "largura": 32,
+      "altura": 32,
+      "direcoes": 1,
+      "colunas": 1,
+      "linhas": 1
+    },
+    "origem": {
+      "id": "DrinkShakerBluespace",
+      "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_special.yml",
+      "line": 299
+    },
+    "uso": "misturar"
+  },
+  {
+    "id": "DrinkIceBucket",
+    "nome": "ice bucket",
+    "descricao": "A special bucket of refreshy ice. Prohibited use for challenge with the same name!",
+    "traducao": "en",
+    "nomeTraducao": "en",
+    "descricaoTraducao": "en",
+    "tipo": "ferramenta",
+    "capacidade": 200,
+    "capacidadeFonte": "soma dos reagentes iniciais",
+    "cabeNaDispensa": false,
+    "sprite": {
+      "rsi": "Objects/Consumable/Drinks/icebucket.rsi",
+      "estado": "icon",
+      "largura": 32,
+      "altura": 32,
+      "direcoes": 1,
+      "colunas": 1,
+      "linhas": 1
+    },
+    "origem": {
+      "id": "DrinkIceBucket",
+      "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_special.yml",
+      "line": 250
+    },
+    "uso": "ferramenta"
+  },
+  {
+    "id": "DrinkShaker",
+    "nome": "shaker",
+    "descricao": "O fiel companheiro de mixagem do barman.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "tipo": "ferramenta",
+    "capacidade": 100,
+    "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+    "cabeNaDispensa": true,
+    "sprite": {
+      "rsi": "Objects/Consumable/Drinks/shaker.rsi",
+      "estado": "icon",
+      "largura": 32,
+      "altura": 32,
+      "direcoes": 1,
+      "colunas": 1,
+      "linhas": 1
+    },
+    "origem": {
+      "id": "DrinkShaker",
+      "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_special.yml",
+      "line": 87
+    },
+    "uso": "misturar"
+  },
+  {
+    "id": "Pitcher",
+    "nome": "metal pitcher",
+    "descricao": "A stainless steel insulated pitcher. Everyone's best friend in the morning.",
+    "traducao": "en",
+    "nomeTraducao": "en",
+    "descricaoTraducao": "en",
+    "tipo": "vidraria",
+    "capacidade": 60,
+    "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+    "cabeNaDispensa": true,
+    "sprite": {
+      "rsi": "Objects/Consumable/Drinks/pitcher.rsi",
+      "estado": "icon",
+      "largura": 32,
+      "altura": 32,
+      "direcoes": 1,
+      "colunas": 1,
+      "linhas": 1
+    },
+    "origem": {
+      "id": "Pitcher",
+      "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_special.yml",
+      "line": 269
+    },
+    "uso": "servir"
+  },
+  {
+    "id": "DrinkGlass",
+    "nome": "copo de vidro",
+    "descricao": "Um copo.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "tipo": "vidraria",
+    "capacidade": 30,
+    "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+    "cabeNaDispensa": true,
+    "sprite": {
+      "rsi": "Objects/Consumable/Drinks/glass_clear.rsi",
+      "estado": "icon",
+      "largura": 32,
+      "altura": 32,
+      "direcoes": 1,
+      "colunas": 1,
+      "linhas": 1
+    },
+    "origem": {
+      "id": "DrinkGlass",
+      "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks.yml",
+      "line": 273
+    },
+    "uso": "servir"
+  },
+  {
+    "id": "DrinkGlassCoupeShaped",
+    "nome": "coupe glass",
+    "descricao": "A classic thin neck coupe glass, the icon of fragile labels on crates around the galaxy.",
+    "traducao": "en",
+    "nomeTraducao": "en",
+    "descricaoTraducao": "en",
+    "tipo": "vidraria",
+    "capacidade": 30,
+    "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+    "cabeNaDispensa": true,
+    "sprite": {
+      "rsi": "Objects/Consumable/Drinks/glass_coupe_shape.rsi",
+      "estado": "icon",
+      "largura": 32,
+      "altura": 32,
+      "direcoes": 1,
+      "colunas": 1,
+      "linhas": 1
+    },
+    "origem": {
+      "id": "DrinkGlassCoupeShaped",
+      "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks.yml",
+      "line": 307
+    },
+    "uso": "servir"
+  },
+  {
+    "id": "DrinkJigger",
+    "nome": "jigger",
+    "descricao": "Like a shaker, but smaller. Used to control the amount of ingredients.",
+    "traducao": "en",
+    "nomeTraducao": "en",
+    "descricaoTraducao": "en",
+    "tipo": "ferramenta",
+    "capacidade": 20,
+    "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+    "cabeNaDispensa": true,
+    "sprite": {
+      "rsi": "Objects/Consumable/Drinks/jigger.rsi",
+      "estado": "icon",
+      "largura": 32,
+      "altura": 32,
+      "direcoes": 1,
+      "colunas": 1,
+      "linhas": 1
+    },
+    "origem": {
+      "id": "DrinkJigger",
+      "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_special.yml",
+      "line": 225
+    },
+    "uso": "medir"
+  },
+  {
+    "id": "DrinkShotGlass",
+    "nome": "shot",
+    "descricao": "Perfeito para bater na mesa com raiva.",
+    "traducao": "pt",
+    "nomeTraducao": "pt",
+    "descricaoTraducao": "pt",
+    "tipo": "vidraria",
+    "capacidade": 5,
+    "capacidadeFonte": "SolutionContainerManager.solutions.drink.maxVol",
+    "cabeNaDispensa": true,
+    "sprite": {
+      "rsi": "Objects/Consumable/Drinks/shotglass.rsi",
+      "estado": "icon",
+      "largura": 32,
+      "altura": 32,
+      "direcoes": 1,
+      "colunas": 1,
+      "linhas": 1
+    },
+    "origem": {
+      "id": "DrinkShotGlass",
+      "file": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_special.yml",
+      "line": 135
+    },
+    "uso": "servir"
+  }
+]

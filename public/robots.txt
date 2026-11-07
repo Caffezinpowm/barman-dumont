@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# O site usa rotas em hash (#/bebida/...), então o conteúdo
+# compartilhável é servido a partir da página inicial.

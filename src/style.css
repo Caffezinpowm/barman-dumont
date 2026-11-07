@@ -1,0 +1,93 @@
+@import "tailwindcss";
+@import "./styles/base.css";
+@import "./styles/chrome.css";
+@import "./styles/content.css";
+@import "./styles/detail.css";
+@import "./styles/pages.css";
+@import "./styles/responsive.css";
+
+@source not "../README.md";
+@source not "../RELATORIO-EXTRACAO.md";
+
+@plugin "daisyui" {
+  themes: false;
+  logs: false;
+}
+
+@plugin "daisyui/theme" {
+  name: "guia";
+  default: true;
+  prefersdark: true;
+  color-scheme: dark;
+
+  --color-base-100: #17110e;
+  --color-base-200: #1d1511;
+  --color-base-300: #2a1f19;
+  --color-base-content: #f2e8d9;
+
+  --color-primary: #d09a58;
+  --color-primary-content: #1d1208;
+  --color-secondary: #9a5f42;
+  --color-secondary-content: #fff4e4;
+  --color-accent: #c9a35f;
+  --color-accent-content: #1d1208;
+  --color-neutral: #2b2019;
+  --color-neutral-content: #eadcc9;
+
+  --color-info: #a9b8b0;
+  --color-info-content: #101513;
+  --color-success: #8fa77a;
+  --color-success-content: #12180e;
+  --color-warning: #d2a45f;
+  --color-warning-content: #1d1208;
+  --color-error: #c97a64;
+  --color-error-content: #1d0d09;
+
+  --radius-selector: 0.125rem;
+  --radius-field: 0.125rem;
+  --radius-box: 0.25rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+
+@plugin "daisyui/theme" {
+  name: "guia-claro";
+  default: false;
+  prefersdark: false;
+  color-scheme: light;
+
+  --color-base-100: #f4ecdd;
+  --color-base-200: #efe3d1;
+  --color-base-300: #e2d2bb;
+  --color-base-content: #2b1f17;
+
+  --color-primary: #835020;
+  --color-primary-content: #fff8ec;
+  --color-secondary: #8b5638;
+  --color-secondary-content: #fff8ec;
+  --color-accent: #94702f;
+  --color-accent-content: #fff8ec;
+  --color-neutral: #3a2a1f;
+  --color-neutral-content: #f7eedf;
+
+  --color-info: #4f6d66;
+  --color-info-content: #f6fbf8;
+  --color-success: #527047;
+  --color-success-content: #f7fbf3;
+  --color-warning: #94651f;
+  --color-warning-content: #fff8ec;
+  --color-error: #a34e3a;
+  --color-error-content: #fff8ec;
+
+  --radius-selector: 0.125rem;
+  --radius-field: 0.125rem;
+  --radius-box: 0.25rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}

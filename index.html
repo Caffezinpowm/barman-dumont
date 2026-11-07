@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="guia">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#17110e" />
+    <meta
+      name="description"
+      content="Guia de fã, não oficial, com bebidas, receitas, ingredientes, equipamentos e capacidades reais do Dumont Station (Space Station 14)."
+    />
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Guia do Barman · Dumont Station</title>
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("guia-barman:tema");
+          var pref = stored ? JSON.parse(stored) : "auto";
+          if (pref !== "escuro" && pref !== "claro") pref = "auto";
+          var dark =
+            pref === "escuro" ||
+            (pref === "auto" && !window.matchMedia("(prefers-color-scheme: light)").matches);
+          document.documentElement.dataset.theme = dark ? "guia" : "guia-claro";
+          document.documentElement.dataset.themePreference = pref;
+          document.documentElement.style.backgroundColor = dark ? "#17110e" : "#f4ecdd";
+          var meta = document.querySelector('meta[name="theme-color"]');
+          if (meta) meta.setAttribute("content", dark ? "#17110e" : "#f4ecdd");
+        } catch (error) {
+          document.documentElement.dataset.theme = "guia";
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="app">
+      <noscript>
+        <p class="no-script">
+          O Guia do Barman precisa de JavaScript para carregar as receitas e os sprites do Dumont
+          Station.
+        </p>
+      </noscript>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

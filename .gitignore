@@ -1,0 +1,49 @@
+# Dependências
+node_modules/
+.pnpm-store/
+
+# Build e artefatos gerados
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Caches
+.vite/
+.cache/
+.turbo/
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Variáveis de ambiente e configurações locais
+.env
+.env.*
+!.env.example
+*.local
+
+# Editores
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.history/
+.fleet/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporários
+*.tmp
